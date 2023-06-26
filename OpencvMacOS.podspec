@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OpencvMacOS'
-  s.version          = '1.0.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of OpencvMacOS.'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/csf62615@sina.com/OpencvMacOS'
+  s.homepage         = 'https://github.com/chensifang'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'csf62615@sina.com' => 'csf62615@sina.com' }
@@ -34,6 +34,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'OpencvMacOS/lib/opencv2.framework/Versions/A/Headers**/*'
   s.vendored_frameworks = 'OpencvMacOS/lib/opencv2.framework'
   s.frameworks = 'OpenCL', 'Accelerate', 'AVFoundation', 'CoreMedia'
+  s.libraries = 'c++'
 
   # s.resource_bundles = {
   #   'OpencvMacOS' => ['OpencvMacOS/Assets/*.png']

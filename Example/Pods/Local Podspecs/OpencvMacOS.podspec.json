@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "summary": "A short description of OpencvMacOS.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/csf62615@sina.com/OpencvMacOS",
+  "homepage": "https://github.com/chensifang",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -25,5 +25,12 @@
     "Accelerate",
     "AVFoundation",
     "CoreMedia"
-  ]
+  ],
+  "libraries": "c++",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  }
 }

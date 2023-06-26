@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		40BE0C966C9CE06D8214C765 /* Pods_OpencvMacOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D7BB3B338C6BBA99242276 /* Pods_OpencvMacOS_Tests.framework */; };
 		542C638A72F48934E27EE251 /* Pods_OpencvMacOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C032EE16BF1FD8EEEB65358 /* Pods_OpencvMacOS_Example.framework */; };
-		C93A078F2A49860700218571 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C93A078E2A49860000218571 /* libc++.tbd */; };
 		ED83F67C20348A760038D96B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83F67B20348A760038D96B /* AppDelegate.swift */; };
 		ED83F67E20348A760038D96B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83F67D20348A760038D96B /* ViewController.swift */; };
 		ED83F68020348A760038D96B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED83F67F20348A760038D96B /* Assets.xcassets */; };
@@ -55,7 +54,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C93A078F2A49860700218571 /* libc++.tbd in Frameworks */,
 				542C638A72F48934E27EE251 /* Pods_OpencvMacOS_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

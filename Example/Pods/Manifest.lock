@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OpencvMacOS: edd0cf8bf7f51e3ed845b11fcc5fb01c7783c7c6
+  OpencvMacOS: d7b2d313c32134a6daadac441d64744b5f02bca4
 
 PODFILE CHECKSUM: f66d7f8ae56cbd22a854b2a8fed6c1284f4c2a7f
 
