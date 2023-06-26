@@ -1,0 +1,1403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E4E6A738CF1AC5FB09F20DBF5462CA3B /* OpencvMacOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 826FBCADF777D48D36009351C2B24556 /* Build configuration list for PBXAggregateTarget "OpencvMacOS" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = OpencvMacOS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		33490AEA3D2AF61BEE90BC91008A9FCD /* Pods-OpencvMacOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EABA8C73AF25BD7F704456CD76CCC /* Pods-OpencvMacOS_Example-dummy.m */; };
+		BFA283B24BB4F7392B8A27FC27FB8EAC /* Pods-OpencvMacOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D667A03349455834D574AB0ADA58B118 /* Pods-OpencvMacOS_Tests-dummy.m */; };
+		C76868BE0FAA4087454A6D4C8EBEDAE7 /* Pods-OpencvMacOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56181F863826368D6EFC794BB6BA0A25 /* Pods-OpencvMacOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0BFB394AF29B6F4973B4974D43FF37C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		F76128E09A8FE98F2B9E481ABB342A5D /* Pods-OpencvMacOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB61F160ACF8103F9459AC903A6FC393 /* Pods-OpencvMacOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE2B025026D91C3F9EC39DA65CB8B4DE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74D07C19CC91AE07920AF15C24C3C8F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D43F7F4DE0768B16433870647D08AE5D;
+			remoteInfo = "Pods-OpencvMacOS_Example";
+		};
+		BE01558BC0DD646738FE59CA8416AC07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4E6A738CF1AC5FB09F20DBF5462CA3B;
+			remoteInfo = OpencvMacOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0083FF619A5EC9AC0A71441ED01D6076 /* IntelligentScissorsMB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IntelligentScissorsMB.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/IntelligentScissorsMB.h; sourceTree = "<group>"; };
+		00CB8C1747DA4165217DCED8F2F4C055 /* TonemapDurand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TonemapDurand.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TonemapDurand.h; sourceTree = "<group>"; };
+		01D54AB05DF3621AA8183D7F6C2FAEC8 /* ParamGrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParamGrid.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/ParamGrid.h; sourceTree = "<group>"; };
+		0336B63C83CF93249B1D205B7CA17C10 /* MatOfPoint2i.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatOfPoint2i.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MatOfPoint2i.h; sourceTree = "<group>"; };
+		0555C9410B8F9EC113E417A1375FB38D /* MatOfDouble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatOfDouble.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MatOfDouble.h; sourceTree = "<group>"; };
+		05680BBBB78FDBA56EE6860A6DDF98FC /* AlignMTB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AlignMTB.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/AlignMTB.h; sourceTree = "<group>"; };
+		06B825A2E5FF428AB4D2BFD059F04554 /* stereo.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = stereo.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/stereo.hpp; sourceTree = "<group>"; };
+		06EB02D36CEFEEAA5F0A724AD91C02EA /* Double3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Double3.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Double3.h; sourceTree = "<group>"; };
+		07E8E75B4266B78E442F19037EE11564 /* TextDetectionModel_DB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TextDetectionModel_DB.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TextDetectionModel_DB.h; sourceTree = "<group>"; };
+		07F3E81AAEF061FE7047B0EC0242822B /* TextDetectionModel_EAST.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TextDetectionModel_EAST.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TextDetectionModel_EAST.h; sourceTree = "<group>"; };
+		09572442304F9035B315C88BA63EDD2D /* AffineFeature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AffineFeature.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/AffineFeature.h; sourceTree = "<group>"; };
+		0A8303D942F4C55A4622E6F9BC0BCD9E /* DAISY.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DAISY.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/DAISY.h; sourceTree = "<group>"; };
+		0AE170425964A1AF0A44131C3E0EA01B /* KNearest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KNearest.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/KNearest.h; sourceTree = "<group>"; };
+		0B1F9F177788F7326A3C8E1914ACB98F /* KAZE.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KAZE.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/KAZE.h; sourceTree = "<group>"; };
+		0B9DFD01FBD1C15B41532F409A8BB992 /* AverageHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AverageHash.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/AverageHash.h; sourceTree = "<group>"; };
+		0CA4CA81E1ADFFBDCF77023AE9BD3672 /* Mat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mat.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Mat.h; sourceTree = "<group>"; };
+		0D7178E9AE3409FCBEE1595E763E9C4C /* HistogramPhaseUnwrapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HistogramPhaseUnwrapping.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/HistogramPhaseUnwrapping.h; sourceTree = "<group>"; };
+		0DA1C276998E09AFE2C9C75814410767 /* ByteVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ByteVector.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/ByteVector.h; sourceTree = "<group>"; };
+		0DD4F30F6422970554DECD4D98CFDBDD /* xphoto.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = xphoto.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/xphoto.hpp; sourceTree = "<group>"; };
+		0DFDAF3CC83CFE5197B17AB703332EEF /* SyntheticSequenceGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyntheticSequenceGenerator.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SyntheticSequenceGenerator.h; sourceTree = "<group>"; };
+		0E0C524D441F3CAACDBF4C2DBBA1AEFC /* BOWKMeansTrainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BOWKMeansTrainer.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/BOWKMeansTrainer.h; sourceTree = "<group>"; };
+		0E5AE31E48CA2BCFCCFC06A56844DA5D /* GridBoard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GridBoard.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/GridBoard.h; sourceTree = "<group>"; };
+		0E8023517A0503292492ED5BCEF45CF3 /* DMatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMatch.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/DMatch.h; sourceTree = "<group>"; };
+		0EDE7516CA33E79501454F82D5B8CCD2 /* opencv.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencv.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/opencv.hpp; sourceTree = "<group>"; };
+		0F709934091E93D841C53330E9707AD0 /* xobjdetect.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = xobjdetect.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/xobjdetect.hpp; sourceTree = "<group>"; };
+		100AE23ED8354B04B8C88292027A7E27 /* HarrisLaplaceFeatureDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HarrisLaplaceFeatureDetector.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/HarrisLaplaceFeatureDetector.h; sourceTree = "<group>"; };
+		107F353DE504D0DFDA66AC084B326370 /* CvType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CvType.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/CvType.h; sourceTree = "<group>"; };
+		1095921E2F423EAC8D8002FEA0770C59 /* WhiteBalancer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WhiteBalancer.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/WhiteBalancer.h; sourceTree = "<group>"; };
+		10BC2956C415DA6C62BCF35A7D2D205E /* ml.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = ml.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/ml.hpp; sourceTree = "<group>"; };
+		10D8B344758BC5EDE0EC4BB2B5725835 /* line_descriptor.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = line_descriptor.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/line_descriptor.hpp; sourceTree = "<group>"; };
+		128BACAB37036C4A712ED151865A5AA5 /* CalibrateCRF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CalibrateCRF.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/CalibrateCRF.h; sourceTree = "<group>"; };
+		128BB17448696DC25C5DCA12BAE1A40A /* TermCriteria.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TermCriteria.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TermCriteria.h; sourceTree = "<group>"; };
+		12DD613CBE2003D876C4752DC6AED5E3 /* TextDetectionModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TextDetectionModel.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TextDetectionModel.h; sourceTree = "<group>"; };
+		13878A2FA4AE236FC8A23C2E93356BA6 /* OCRHMMDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCRHMMDecoder.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/OCRHMMDecoder.h; sourceTree = "<group>"; };
+		143F8A185A647D7DA59FFBCCBF79AAE7 /* rapid.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = rapid.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/rapid.hpp; sourceTree = "<group>"; };
+		1502A01D70DFD4199910F80E952B0734 /* BFMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFMatcher.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/BFMatcher.h; sourceTree = "<group>"; };
+		153E1E156FDF127E1399DE095E6F298D /* Layer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Layer.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Layer.h; sourceTree = "<group>"; };
+		17457E50376C452AB0B6204C44EFB1EE /* saliency.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = saliency.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/saliency.hpp; sourceTree = "<group>"; };
+		17B41892EF07F3D8C31EF83D6B241E43 /* Pods-OpencvMacOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpencvMacOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		17B71EEF73C1071124FF81B4C8AD0D4F /* MatOfInt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatOfInt.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MatOfInt.h; sourceTree = "<group>"; };
+		19271C6030E71EFEAB9884BF78E3DE0D /* Pods-OpencvMacOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpencvMacOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A630AE372318C54CB2715E5C2C63D73 /* rgbd.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = rgbd.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/rgbd.hpp; sourceTree = "<group>"; };
+		1B4C680A0E354A3182FAB7FF020EB268 /* Video.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Video.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Video.h; sourceTree = "<group>"; };
+		1D78D9A4B2425229380C1ED5A719CCE6 /* DISOpticalFlow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DISOpticalFlow.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/DISOpticalFlow.h; sourceTree = "<group>"; };
+		1D9C638F35C86BB075644E8142666466 /* HOGDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HOGDescriptor.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/HOGDescriptor.h; sourceTree = "<group>"; };
+		1DED69B4E33C88FC1A131F283897237F /* SURF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SURF.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SURF.h; sourceTree = "<group>"; };
+		1E1EFC8E6A42682787EF6590C1C359F4 /* phase_unwrapping.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = phase_unwrapping.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/phase_unwrapping.hpp; sourceTree = "<group>"; };
+		1E32AE62151899A44F31C8019551EEFF /* DisparityFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DisparityFilter.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/DisparityFilter.h; sourceTree = "<group>"; };
+		1FA0602D943AF738E2EB4C4E44DB3658 /* Calib3d.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Calib3d.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Calib3d.h; sourceTree = "<group>"; };
+		2008BAFFA7E057DEE66D7D1D7AE9CBAD /* TickMeter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TickMeter.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TickMeter.h; sourceTree = "<group>"; };
+		21F7366E80F84CF703A93A570F0AB2F7 /* StarDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StarDetector.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/StarDetector.h; sourceTree = "<group>"; };
+		22DB894DE687A54C41CF42C7C9022906 /* BEBLID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEBLID.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/BEBLID.h; sourceTree = "<group>"; };
+		23619E5C66EEFD1F7CCA69C784D495D2 /* GeneralizedHough.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeneralizedHough.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/GeneralizedHough.h; sourceTree = "<group>"; };
+		23D616F895E17F9E1A1325285D9F7503 /* Xphoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Xphoto.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Xphoto.h; sourceTree = "<group>"; };
+		244035A26449F862433656371167C1A0 /* FacemarkTrain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FacemarkTrain.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/FacemarkTrain.h; sourceTree = "<group>"; };
+		2495D7B7AFC65C4CC7A208E5B00447F7 /* TextDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TextDetector.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TextDetector.h; sourceTree = "<group>"; };
+		2509DA44FEEE58B6879C4C4033D18FBB /* FloatVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FloatVector.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/FloatVector.h; sourceTree = "<group>"; };
+		25DC54AE3773F080DABE2B61935BCCDB /* wechat_qrcode.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = wechat_qrcode.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/wechat_qrcode.hpp; sourceTree = "<group>"; };
+		260F47C628E3F75E50B8139C2F6FEB27 /* SinusoidalPattern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SinusoidalPattern.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SinusoidalPattern.h; sourceTree = "<group>"; };
+		2644CEA46A0EBC60B74F9928816D1089 /* Aruco.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Aruco.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Aruco.h; sourceTree = "<group>"; };
+		26AF4BD67FEAFBB896A92D4CAFF4FEA2 /* Size2d.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Size2d.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Size2d.h; sourceTree = "<group>"; };
+		272510E380A3C73275ACC7FA7812DED8 /* MatOfRect2i.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatOfRect2i.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MatOfRect2i.h; sourceTree = "<group>"; };
+		27681442A419ED116FA203A0D5E240B9 /* bgsegm.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = bgsegm.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/bgsegm.hpp; sourceTree = "<group>"; };
+		2884CDDB72CED92488AB43F6BD1DB4E5 /* bioinspired.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = bioinspired.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/bioinspired.hpp; sourceTree = "<group>"; };
+		28A7D3E982D88BF7415A59F384238A9B /* TrackerCSRTParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrackerCSRTParams.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TrackerCSRTParams.h; sourceTree = "<group>"; };
+		2AD61C76F0328BBAA5C698105A8447D6 /* Feature2D.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Feature2D.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Feature2D.h; sourceTree = "<group>"; };
+		2B8092D36D3F80DC3D260908584CACF0 /* ImgHashBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ImgHashBase.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/ImgHashBase.h; sourceTree = "<group>"; };
+		2C0679ADF66F2DAB31517DF99783F7D3 /* BackgroundSubtractorLSBPDesc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackgroundSubtractorLSBPDesc.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/BackgroundSubtractorLSBPDesc.h; sourceTree = "<group>"; };
+		2C8CD8EE9072D610D7758758E9D2E78B /* videoio.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = videoio.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/videoio.hpp; sourceTree = "<group>"; };
+		2D90BEE56DDE693F9173B7C7691EBE05 /* RFFeatureGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFFeatureGetter.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/RFFeatureGetter.h; sourceTree = "<group>"; };
+		2DD17A62A729710EB6E08F80485D9A24 /* BriefDescriptorExtractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BriefDescriptorExtractor.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/BriefDescriptorExtractor.h; sourceTree = "<group>"; };
+		2E526CCEB42C9135848DFE7057BE1753 /* VideoCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VideoCapture.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/VideoCapture.h; sourceTree = "<group>"; };
+		2F281AEA7E193AA3EA6A91C60D584CD0 /* tracking.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = tracking.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/tracking.hpp; sourceTree = "<group>"; };
+		300D571E8C96489284D942A2DBBC323B /* QRCodeDetectorAruco.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRCodeDetectorAruco.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/QRCodeDetectorAruco.h; sourceTree = "<group>"; };
+		309AE64E70EA0656243ED1DD680CC292 /* FacemarkLBF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FacemarkLBF.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/FacemarkLBF.h; sourceTree = "<group>"; };
+		30EEF64AE9AB68F96E025B43AEAD0C91 /* OCRHMMDecoderClassifierCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCRHMMDecoderClassifierCallback.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/OCRHMMDecoderClassifierCallback.h; sourceTree = "<group>"; };
+		312EABA8C73AF25BD7F704456CD76CCC /* Pods-OpencvMacOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpencvMacOS_Example-dummy.m"; sourceTree = "<group>"; };
+		3143DEFECA95C7F7383AD26A9F362B03 /* NormalBayesClassifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NormalBayesClassifier.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/NormalBayesClassifier.h; sourceTree = "<group>"; };
+		31AD7746A33FF83F279C8F5A653D4148 /* Converters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Converters.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Converters.h; sourceTree = "<group>"; };
+		31BD657F39D2FB9B3988F70EFC0F30F6 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = OpencvMacOS/lib/opencv2.framework; sourceTree = "<group>"; };
+		31F2C378DBD6D503E02636CB069145E7 /* OpencvMacOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OpencvMacOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		32EB0342C1BE85FA4F977EC3AB116E5C /* EigenFaceRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EigenFaceRecognizer.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/EigenFaceRecognizer.h; sourceTree = "<group>"; };
+		33AB79CDB2ADF56087EEDA39DFE144D1 /* Point3f.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Point3f.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Point3f.h; sourceTree = "<group>"; };
+		33B9F6EE78E533C4E70E3869DBB15B24 /* FaceRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FaceRecognizer.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/FaceRecognizer.h; sourceTree = "<group>"; };
+		33D13748F041FB89EF8C27440ABC7ADB /* Image2BlobParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Image2BlobParams.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Image2BlobParams.h; sourceTree = "<group>"; };
+		3473027501595B9FD777CAC5E08C49A2 /* shape.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = shape.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/shape.hpp; sourceTree = "<group>"; };
+		35D896B8D9D15A27737B3E8687A85456 /* BackgroundSubtractorMOG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackgroundSubtractorMOG.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/BackgroundSubtractorMOG.h; sourceTree = "<group>"; };
+		36361EB772F16D03DF2349037214A853 /* TrackerDaSiamRPNParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrackerDaSiamRPNParams.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TrackerDaSiamRPNParams.h; sourceTree = "<group>"; };
+		36E023707D9F80C3385A6B75A17272AC /* PredictCollector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PredictCollector.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/PredictCollector.h; sourceTree = "<group>"; };
+		36FA8F5BD9E25E71A9D34D33B65C8AF0 /* FlannBasedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlannBasedMatcher.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/FlannBasedMatcher.h; sourceTree = "<group>"; };
+		37CC54D512800BD00A679F96218D4174 /* Features2d.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Features2d.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Features2d.h; sourceTree = "<group>"; };
+		39251038F5CDC9E0DA01E7AA9E040696 /* Pods-OpencvMacOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpencvMacOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3A0282A287969A2E6D0603687C501E70 /* TonemapDrago.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TonemapDrago.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TonemapDrago.h; sourceTree = "<group>"; };
+		3A29C4360042B3DF759AF3BF3A7249FA /* SIFT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIFT.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SIFT.h; sourceTree = "<group>"; };
+		3B0B9ED288B2C3EDCA31B36FA91F1BA7 /* UsacParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UsacParams.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/UsacParams.h; sourceTree = "<group>"; };
+		3C66A703279C776761E6149D1E09BC7C /* TrackerKCFParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrackerKCFParams.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TrackerKCFParams.h; sourceTree = "<group>"; };
+		3CEAAA86D0FF9ADB2E5D866296C9CEA9 /* Point3d.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Point3d.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Point3d.h; sourceTree = "<group>"; };
+		3EB5CFE21FD5BC7B0E77E02284BDE932 /* Photo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Photo.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Photo.h; sourceTree = "<group>"; };
+		3EDCE058ADD9EEB40EE4E6A15FF7B6FA /* Rect2i.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Rect2i.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Rect2i.h; sourceTree = "<group>"; };
+		3F63D434C685243217CC17BD0DAC2AC3 /* dpm.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = dpm.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/dpm.hpp; sourceTree = "<group>"; };
+		40E4A53F4E4F05C9B5836B81F90CD5AE /* OCRBeamSearchDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCRBeamSearchDecoder.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/OCRBeamSearchDecoder.h; sourceTree = "<group>"; };
+		41C3C43917D20DC07BBEEBAAD6458BD4 /* TonemapReinhard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TonemapReinhard.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TonemapReinhard.h; sourceTree = "<group>"; };
+		42AF6406F8B962FDAF5476A8F7F89DEB /* RefineParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RefineParameters.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/RefineParameters.h; sourceTree = "<group>"; };
+		4307CE32F20AC7BF6533613708A9AA3C /* ERFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ERFilter.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/ERFilter.h; sourceTree = "<group>"; };
+		43CE0D13CABBB1D62A0C137523DE1FD4 /* imgcodecs.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = imgcodecs.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/imgcodecs.hpp; sourceTree = "<group>"; };
+		44CFAA863FBF0ED10BF817BF82F2014D /* BaseOCR.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseOCR.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/BaseOCR.h; sourceTree = "<group>"; };
+		4606350C564C2C08B4017DCBFA57E20E /* QRCodeDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRCodeDetector.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/QRCodeDetector.h; sourceTree = "<group>"; };
+		460E20297F979AE1134BB2409F9B2717 /* photo.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = photo.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/photo.hpp; sourceTree = "<group>"; };
+		46B1C844DFEAE32C19A631AC193D0980 /* SelectiveSearchSegmentationStrategySize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SelectiveSearchSegmentationStrategySize.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SelectiveSearchSegmentationStrategySize.h; sourceTree = "<group>"; };
+		4831AC5F53A13967D2EB054C39C4D927 /* VideoWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VideoWriter.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/VideoWriter.h; sourceTree = "<group>"; };
+		4875258C2422C352773B6422F3122C09 /* Pods-OpencvMacOS_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OpencvMacOS_Tests"; path = Pods_OpencvMacOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4915D11A99CE00CC33D39B8C6242755C /* BackgroundSubtractorKNN.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackgroundSubtractorKNN.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/BackgroundSubtractorKNN.h; sourceTree = "<group>"; };
+		4A0EDDF3D114A69ABAC2DF2AD1BDDAFD /* Float4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Float4.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Float4.h; sourceTree = "<group>"; };
+		4AA57FB1EDB63625DADDA77586B68040 /* RTrees.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTrees.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/RTrees.h; sourceTree = "<group>"; };
+		4D0A51FF55A1CDDD5E353AA794D7DA45 /* world.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = world.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/world.hpp; sourceTree = "<group>"; };
+		4DB45D6EFBD7F1FF752042EBD7EAB3C1 /* CalibrateDebevec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CalibrateDebevec.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/CalibrateDebevec.h; sourceTree = "<group>"; };
+		4EAED93389D224F25237AB9E7152C31A /* KeypointsModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeypointsModel.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/KeypointsModel.h; sourceTree = "<group>"; };
+		4EB2B0F35A773D4C3AAE61D1A390B57C /* LUCID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LUCID.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/LUCID.h; sourceTree = "<group>"; };
+		51E20E439434D28244830F27BF6D36CC /* cvconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cvconfig.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/cvconfig.h; sourceTree = "<group>"; };
+		529438D6B32A75FC58110A3E20D77E6F /* AlignExposures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AlignExposures.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/AlignExposures.h; sourceTree = "<group>"; };
+		536A038E8053FCDAC88228A48942BBF9 /* TrackerCSRT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrackerCSRT.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TrackerCSRT.h; sourceTree = "<group>"; };
+		544B3F0B04AD02C513D6C74657E26414 /* Algorithm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Algorithm.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Algorithm.h; sourceTree = "<group>"; };
+		5459A227524BC236967F337FEFF9E653 /* StatModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StatModel.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/StatModel.h; sourceTree = "<group>"; };
+		56181F863826368D6EFC794BB6BA0A25 /* Pods-OpencvMacOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpencvMacOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		577AEE8943AF72D692D86D1D89931C27 /* Moments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Moments.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Moments.h; sourceTree = "<group>"; };
+		5817EEB7516A78FCED99CE213BD55124 /* BlockMeanHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlockMeanHash.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/BlockMeanHash.h; sourceTree = "<group>"; };
+		5847ADE5C926BC20F48A2535BFEFE3D5 /* calib3d.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = calib3d.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/calib3d.hpp; sourceTree = "<group>"; };
+		5919A8B3D3E7A0990B876360F705A386 /* ArucoDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ArucoDetector.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/ArucoDetector.h; sourceTree = "<group>"; };
+		5A7F1161BEEE1F0A10726ADEB6D7A3BD /* OpencvMacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpencvMacOS.release.xcconfig; sourceTree = "<group>"; };
+		5A864EBCCE24F5A17372AF1A832F2F24 /* EdgeAwareInterpolator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EdgeAwareInterpolator.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/EdgeAwareInterpolator.h; sourceTree = "<group>"; };
+		5BF9F591394B24CBB53DE93DFE50D41F /* Text.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Text.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Text.h; sourceTree = "<group>"; };
+		5C22B99981F2C53AF312DB1762C3B7B5 /* TrackerDaSiamRPN.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrackerDaSiamRPN.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TrackerDaSiamRPN.h; sourceTree = "<group>"; };
+		5DBAD86FDE7BBC34B0E32A6A2E64A8CA /* BIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BIF.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/BIF.h; sourceTree = "<group>"; };
+		5E1907C63AB42E1909C14293E7B21137 /* Point3i.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Point3i.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Point3i.h; sourceTree = "<group>"; };
+		5E1F88F2B87C9D6CE18749C17CA41B7F /* BackgroundSubtractorMOG2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackgroundSubtractorMOG2.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/BackgroundSubtractorMOG2.h; sourceTree = "<group>"; };
+		5EC86C3FD7D763380D8FC6291939079D /* LearningBasedWB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LearningBasedWB.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/LearningBasedWB.h; sourceTree = "<group>"; };
+		5F26113C27F5F57DD4F948B6E8495B14 /* Retina.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Retina.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Retina.h; sourceTree = "<group>"; };
+		5FA1CF4824BFF2F3644E54714EE1AC18 /* Ml.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Ml.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Ml.h; sourceTree = "<group>"; };
+		600A6C740352B849DCA533C9F9D0CC51 /* FastFeatureDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FastFeatureDetector.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/FastFeatureDetector.h; sourceTree = "<group>"; };
+		61D8BA378ED9DAC8EDC1685D04AF3C5E /* BarcodeDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarcodeDetector.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/BarcodeDetector.h; sourceTree = "<group>"; };
+		6356027A4235B7F9126ABE1C627EFC7A /* MarrHildrethHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MarrHildrethHash.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MarrHildrethHash.h; sourceTree = "<group>"; };
+		64026218BDAA92A7577C4FD72D1081D9 /* Point2d.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Point2d.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Point2d.h; sourceTree = "<group>"; };
+		642CAC4D3810F69BD91504A2E1A86E26 /* Plot2d.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Plot2d.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Plot2d.h; sourceTree = "<group>"; };
+		644EB8A45969A1DCD6D728831CFB758B /* TonemapMantiuk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TonemapMantiuk.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TonemapMantiuk.h; sourceTree = "<group>"; };
+		64B216040BEA852AE8C6CB30999477C6 /* MatOfFloat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatOfFloat.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MatOfFloat.h; sourceTree = "<group>"; };
+		66AC77715E090C588206D60A452DA0C0 /* SelectiveSearchSegmentationStrategyFill.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SelectiveSearchSegmentationStrategyFill.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SelectiveSearchSegmentationStrategyFill.h; sourceTree = "<group>"; };
+		66B8D7BAD2630E947B32E7E4AB45B37B /* Pods-OpencvMacOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpencvMacOS_Tests-Info.plist"; sourceTree = "<group>"; };
+		698F2B25548CBD4D47C0F5EAA8C467E2 /* RICInterpolator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RICInterpolator.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/RICInterpolator.h; sourceTree = "<group>"; };
+		6996208F62D7E4FF79FDF28214287D4C /* GeneralizedHoughBallard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeneralizedHoughBallard.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/GeneralizedHoughBallard.h; sourceTree = "<group>"; };
+		69FB13697468C1AA9169EA9F00531168 /* DescriptorMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DescriptorMatcher.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/DescriptorMatcher.h; sourceTree = "<group>"; };
+		6A7F313BCC4DB80032F4EDDDA01DD716 /* Bgsegm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bgsegm.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Bgsegm.h; sourceTree = "<group>"; };
+		6AC26F632EDF6A1F7C03C8ABB7540A14 /* TrainData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrainData.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TrainData.h; sourceTree = "<group>"; };
+		6C726D3ED49D5EDC377803AD53969783 /* BasicFaceRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BasicFaceRecognizer.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/BasicFaceRecognizer.h; sourceTree = "<group>"; };
+		6D52F577A7A6B81E43277B516BD99C1B /* VariationalRefinement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VariationalRefinement.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/VariationalRefinement.h; sourceTree = "<group>"; };
+		6D79166932387A9A9E868176DF8A3BA1 /* StereoSGBM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StereoSGBM.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/StereoSGBM.h; sourceTree = "<group>"; };
+		6DD135B24C0D7FBA547ECD17CBCB39A3 /* Float6.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Float6.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Float6.h; sourceTree = "<group>"; };
+		6DE1879FB13D91647938410B6CB2B769 /* Point2i.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Point2i.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Point2i.h; sourceTree = "<group>"; };
+		6E09DD714C5283F5AE39AED1F68D1B2A /* MatOfKeyPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatOfKeyPoint.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MatOfKeyPoint.h; sourceTree = "<group>"; };
+		6F27A2D1EDB32BF73ABAACA71D33CEF5 /* GFTTDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFTTDetector.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/GFTTDetector.h; sourceTree = "<group>"; };
+		6FFC46DE39978CA9348645994C19BB19 /* AffineFeature2D.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AffineFeature2D.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/AffineFeature2D.h; sourceTree = "<group>"; };
+		704E88E72F1F6DCB884CDFFCFA506429 /* ScanSegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ScanSegment.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/ScanSegment.h; sourceTree = "<group>"; };
+		71DB749C454EA1B789BB5F409A8500A2 /* TrackerMILParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrackerMILParams.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TrackerMILParams.h; sourceTree = "<group>"; };
+		71ED05AE26FD90EBCA84B67D122DE3AE /* TEBLID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TEBLID.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TEBLID.h; sourceTree = "<group>"; };
+		7292E3BEB496613E1269A6D727A48150 /* WeChatQRCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeChatQRCode.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/WeChatQRCode.h; sourceTree = "<group>"; };
+		73A97526B56337CC523A7F274E9842F6 /* CalibrateRobertson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CalibrateRobertson.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/CalibrateRobertson.h; sourceTree = "<group>"; };
+		75D6E2A51E4AE63941A04A51604ED9E3 /* FastLineDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FastLineDetector.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/FastLineDetector.h; sourceTree = "<group>"; };
+		764004227BC6962D96414948E6F7B7B3 /* FastGlobalSmootherFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FastGlobalSmootherFilter.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/FastGlobalSmootherFilter.h; sourceTree = "<group>"; };
+		76AAC92ED3E8004DE36342E0CDDFF418 /* MatOfInt4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatOfInt4.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MatOfInt4.h; sourceTree = "<group>"; };
+		7774206E2CA623D08C2D3D3536FD765E /* MSER.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSER.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MSER.h; sourceTree = "<group>"; };
+		77A8E1ECEF6F5AC1BC2C2F0D207C5021 /* MatConverters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatConverters.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MatConverters.h; sourceTree = "<group>"; };
+		77AC9C5222E222B6FDBB7FF184DEAF8E /* SimpleBlobDetectorParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimpleBlobDetectorParams.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SimpleBlobDetectorParams.h; sourceTree = "<group>"; };
+		789024F472A41A851D88E2B405938849 /* Boost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Boost.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Boost.h; sourceTree = "<group>"; };
+		78BC07BD7C01BDB40029947E2CAAC8B7 /* EdgeDrawing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EdgeDrawing.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/EdgeDrawing.h; sourceTree = "<group>"; };
+		78E9484391C9E562D6B265B215322FA7 /* ERFilterCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ERFilterCallback.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/ERFilterCallback.h; sourceTree = "<group>"; };
+		79567DFBB8C8F8A874D14988BDA57C1D /* Net.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Net.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Net.h; sourceTree = "<group>"; };
+		7B370FE9ADBF176CEE22446591146173 /* Pods-OpencvMacOS_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OpencvMacOS_Example"; path = Pods_OpencvMacOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CBEEC171BA4345DCD23D4FF232F6F4A /* Objdetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Objdetect.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Objdetect.h; sourceTree = "<group>"; };
+		7CD6D6E526DD102C05CAFA96B2DC7EE2 /* AKAZE.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKAZE.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/AKAZE.h; sourceTree = "<group>"; };
+		7D17E0FFC4F878825E9A0D9E03072EFE /* RotatedRect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RotatedRect.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/RotatedRect.h; sourceTree = "<group>"; };
+		7D359F55FCA330AA3CDAE16D6DB967F3 /* GraphSegmentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GraphSegmentation.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/GraphSegmentation.h; sourceTree = "<group>"; };
+		7D8DA34C5FE8E6B38A3A0AB647187B2E /* Imgcodecs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Imgcodecs.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Imgcodecs.h; sourceTree = "<group>"; };
+		7E4CA80D559DC5EA6E09443A547ABAA5 /* Pods-OpencvMacOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpencvMacOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7E5280538068E2D34F4535C168352365 /* Bioinspired.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bioinspired.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Bioinspired.h; sourceTree = "<group>"; };
+		7F32A37652506774AA4EC160544A4E4F /* KalmanFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KalmanFilter.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/KalmanFilter.h; sourceTree = "<group>"; };
+		8193D25FC8A7B060AA5837D6A6B7E619 /* BaseCascadeClassifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseCascadeClassifier.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/BaseCascadeClassifier.h; sourceTree = "<group>"; };
+		81AD17FC98D17987595EC932E8846EBE /* EstimateParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EstimateParameters.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/EstimateParameters.h; sourceTree = "<group>"; };
+		824FE6E429687C5CAE1BA80187640DBD /* SimpleWB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimpleWB.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SimpleWB.h; sourceTree = "<group>"; };
+		826DDFB69994832438CA73E7DB7B24AF /* LineSegmentDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LineSegmentDetector.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/LineSegmentDetector.h; sourceTree = "<group>"; };
+		82D05D1A840B97B46F2AF2FA64331B54 /* SelectiveSearchSegmentationStrategyColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SelectiveSearchSegmentationStrategyColor.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SelectiveSearchSegmentationStrategyColor.h; sourceTree = "<group>"; };
+		833541C21640A6D4E7CB77071A9B7C07 /* SparsePyrLKOpticalFlow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SparsePyrLKOpticalFlow.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SparsePyrLKOpticalFlow.h; sourceTree = "<group>"; };
+		83ECBC534A4F05C6689B371E8B3A702F /* EdgeBoxes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EdgeBoxes.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/EdgeBoxes.h; sourceTree = "<group>"; };
+		848676E35C1C0DF22A54B585513D175D /* fuzzy.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = fuzzy.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/fuzzy.hpp; sourceTree = "<group>"; };
+		853F15D570F65661A8A10C9880722A36 /* DoubleVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DoubleVector.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/DoubleVector.h; sourceTree = "<group>"; };
+		86BC9F43F4FE4C732775A6D0741239F4 /* Rect2f.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Rect2f.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Rect2f.h; sourceTree = "<group>"; };
+		871FC021A21B6A10A96F546DE75F7708 /* QRCodeEncoderParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRCodeEncoderParams.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/QRCodeEncoderParams.h; sourceTree = "<group>"; };
+		8744D58A31DB002695C64EE24554A6F1 /* videostab.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = videostab.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/videostab.hpp; sourceTree = "<group>"; };
+		87EF86F963AE8A525F54C525E9F1F6F6 /* TransientAreasSegmentationModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransientAreasSegmentationModule.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TransientAreasSegmentationModule.h; sourceTree = "<group>"; };
+		8848F1BA5E1F09D270BFB34D48F26F08 /* img_hash.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = img_hash.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/img_hash.hpp; sourceTree = "<group>"; };
+		892EEEDDE6CEFF10CA696C8767867F5F /* OpencvMacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpencvMacOS.debug.xcconfig; sourceTree = "<group>"; };
+		8976EB0D3B4CEA470999EB0DA83838C2 /* QRCodeEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRCodeEncoder.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/QRCodeEncoder.h; sourceTree = "<group>"; };
+		89A754DC8E995FB01D0AD80429C6D3A2 /* Int4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Int4.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Int4.h; sourceTree = "<group>"; };
+		89F96E8171F98ED38E225CC476073F07 /* Img_hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Img_hash.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Img_hash.h; sourceTree = "<group>"; };
+		8A4E990E844DCE458130B791CCAD2C0F /* optflow.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = optflow.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/optflow.hpp; sourceTree = "<group>"; };
+		8A6977A226DDF68B01D87BFC68B2CAE4 /* Size2i.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Size2i.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Size2i.h; sourceTree = "<group>"; };
+		8B1C496452C4D262AF076DE67ADDC0CC /* LogisticRegression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LogisticRegression.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/LogisticRegression.h; sourceTree = "<group>"; };
+		8B4D50D7F6CD823C3964AF8213BA2F8C /* plot.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = plot.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/plot.hpp; sourceTree = "<group>"; };
+		8B4DDB273364820CC3EF0457E298523F /* OCRBeamSearchDecoderClassifierCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCRBeamSearchDecoderClassifierCallback.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/OCRBeamSearchDecoderClassifierCallback.h; sourceTree = "<group>"; };
+		8B97B646A3D0621C7F0D5940E59AC137 /* video.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = video.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/video.hpp; sourceTree = "<group>"; };
+		8BC2946ACD0251F3601E496C240D4FED /* EM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EM.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/EM.h; sourceTree = "<group>"; };
+		8BE8E8062FE0B52DDA3CE58F1D145FFD /* ColorMomentHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ColorMomentHash.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/ColorMomentHash.h; sourceTree = "<group>"; };
+		8E888156E1C4E17C19C0E3A67C6A15E3 /* ContourFitting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ContourFitting.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/ContourFitting.h; sourceTree = "<group>"; };
+		8F050EECA9A3704A632C0F4EDD27B431 /* GraphicalCodeDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GraphicalCodeDetector.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/GraphicalCodeDetector.h; sourceTree = "<group>"; };
+		8F473C20EEBB65C207B5B99DF84B735B /* SVMSGD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVMSGD.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SVMSGD.h; sourceTree = "<group>"; };
+		8F4E17D72E7FE057BD2EA24660601573 /* SuperpixelSEEDS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SuperpixelSEEDS.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SuperpixelSEEDS.h; sourceTree = "<group>"; };
+		901F11274DA8284034599B57CB1D2FBA /* Tracking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Tracking.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Tracking.h; sourceTree = "<group>"; };
+		904592849E942F0601D1015757EE31BF /* Size2f.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Size2f.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Size2f.h; sourceTree = "<group>"; };
+		9136A904015BDEC704AEADB6FA37E55B /* imgproc.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = imgproc.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/imgproc.hpp; sourceTree = "<group>"; };
+		91FCB43FF1A017A0490CAFC11A8E6346 /* Xfeatures2d.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Xfeatures2d.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Xfeatures2d.h; sourceTree = "<group>"; };
+		924618C1F3550A1563A4700EDB6D4B17 /* objdetect.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = objdetect.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/objdetect.hpp; sourceTree = "<group>"; };
+		928CD2CAEC82C4BD4C9FF577BD78B89B /* Wechat_qrcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Wechat_qrcode.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Wechat_qrcode.h; sourceTree = "<group>"; };
+		934354DE2AA21F87AD48605E2F5A7F89 /* MergeRobertson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MergeRobertson.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MergeRobertson.h; sourceTree = "<group>"; };
+		94C2E3B3086F8A7A3281471AB96A75F1 /* SelectiveSearchSegmentationStrategyTexture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SelectiveSearchSegmentationStrategyTexture.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SelectiveSearchSegmentationStrategyTexture.h; sourceTree = "<group>"; };
+		95D2AB813EB1F19E8616DB47A8CC4CDB /* MinMaxLocResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MinMaxLocResult.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MinMaxLocResult.h; sourceTree = "<group>"; };
+		96859399283FE5A3498EF2B5E267CD57 /* KeyPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeyPoint.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/KeyPoint.h; sourceTree = "<group>"; };
+		96B7E717EF4672F6A4A96254F265A4C4 /* FREAK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FREAK.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/FREAK.h; sourceTree = "<group>"; };
+		96F2D166A35F34757EA06A26AB64A517 /* CirclesGridFinderParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CirclesGridFinderParameters.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/CirclesGridFinderParameters.h; sourceTree = "<group>"; };
+		9728180CFE788AC428515F9212CF1076 /* TextDetectorCNN.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TextDetectorCNN.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TextDetectorCNN.h; sourceTree = "<group>"; };
+		9780DC6FEB9E5386C0594BF964E03FDA /* GrayCodePattern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GrayCodePattern.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/GrayCodePattern.h; sourceTree = "<group>"; };
+		98B175CF27A42F2ED05EF6F41397FEF5 /* MergeMertens.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MergeMertens.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MergeMertens.h; sourceTree = "<group>"; };
+		991CD6BA3FAB6BB8E32E56A068118325 /* DenseOpticalFlow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DenseOpticalFlow.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/DenseOpticalFlow.h; sourceTree = "<group>"; };
+		997D318059C62465A132A11FCB87558C /* Plot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Plot.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Plot.h; sourceTree = "<group>"; };
+		99AAFB31FDAB17B15FF7DF5FB2D020F8 /* CharucoBoard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CharucoBoard.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/CharucoBoard.h; sourceTree = "<group>"; };
+		9AB4577C43E951CCECAE4590C3D7436C /* surface_matching.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = surface_matching.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/surface_matching.hpp; sourceTree = "<group>"; };
+		9BA783457574EABCA16D25B827FF9621 /* SelectiveSearchSegmentationStrategyMultiple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SelectiveSearchSegmentationStrategyMultiple.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SelectiveSearchSegmentationStrategyMultiple.h; sourceTree = "<group>"; };
+		9C082E1FEF83CF49D136CE16761F9CAF /* MatOfPoint3f.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatOfPoint3f.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MatOfPoint3f.h; sourceTree = "<group>"; };
+		9C52E19613F1DB5519029A579C6578F2 /* StructuredEdgeDetection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StructuredEdgeDetection.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/StructuredEdgeDetection.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE6258CD209E7C1FE3E8F1686EC3668 /* ClassificationModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClassificationModel.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/ClassificationModel.h; sourceTree = "<group>"; };
+		A06C647FF4277A896447FEB6BD71EDDA /* Dnn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Dnn.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Dnn.h; sourceTree = "<group>"; };
+		A0AF9A9F7E25B2E6D468E495B0C99AC6 /* Rect2d.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Rect2d.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Rect2d.h; sourceTree = "<group>"; };
+		A15B389712DA03881A057DDF58FA05C3 /* MatOfRotatedRect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatOfRotatedRect.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MatOfRotatedRect.h; sourceTree = "<group>"; };
+		A166C728CCC8C6A4ABF9D27125331CCD /* opencv2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opencv2.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/opencv2.h; sourceTree = "<group>"; };
+		A1B32356C38A67F1A0B88D8174ABEB0C /* FarnebackOpticalFlow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FarnebackOpticalFlow.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/FarnebackOpticalFlow.h; sourceTree = "<group>"; };
+		A27C7687EB99DF5B74852392C7237052 /* structured_light.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = structured_light.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/structured_light.hpp; sourceTree = "<group>"; };
+		A2DC1514C6A2D75DEFABC98D5472B9BC /* MatOfByte.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatOfByte.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MatOfByte.h; sourceTree = "<group>"; };
+		A31EDB722CA09C7769E7F17E07664375 /* StereoMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StereoMatcher.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/StereoMatcher.h; sourceTree = "<group>"; };
+		A5D270C42FC5690661527A3B0792C5C1 /* stitching.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = stitching.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/stitching.hpp; sourceTree = "<group>"; };
+		A646AE36AD63323785D31E00CCA61F0B /* TrackerNano.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrackerNano.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TrackerNano.h; sourceTree = "<group>"; };
+		A712391A8D215FAF361C53FDAD5DAA99 /* QRCodeDetectorArucoParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRCodeDetectorArucoParams.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/QRCodeDetectorArucoParams.h; sourceTree = "<group>"; };
+		A74C02DCD85383C59588130ECBD0CF21 /* EdgeDrawingParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EdgeDrawingParams.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/EdgeDrawingParams.h; sourceTree = "<group>"; };
+		A8508463465F183D3BCC3B3B6C4AE19E /* MatOfFloat4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatOfFloat4.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MatOfFloat4.h; sourceTree = "<group>"; };
+		A91A2093A0027278C6DDEB8C331F10A7 /* ORB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORB.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/ORB.h; sourceTree = "<group>"; };
+		A95AA4851DFECA34297CAEE539D80AC4 /* SimpleBlobDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimpleBlobDetector.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SimpleBlobDetector.h; sourceTree = "<group>"; };
+		AA65BD33373C183106EA4424AB6EEFDD /* Point2f.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Point2f.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Point2f.h; sourceTree = "<group>"; };
+		AB2305927202D8C62060D137C50BB6D3 /* highgui.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = highgui.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/highgui.hpp; sourceTree = "<group>"; };
+		AB61F160ACF8103F9459AC903A6FC393 /* Pods-OpencvMacOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpencvMacOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		AB98D510CDEF99649D1F2DD4F8E22BB8 /* CLAHE.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLAHE.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/CLAHE.h; sourceTree = "<group>"; };
+		AB9DD5FAC7E5F8522174229EEDCFC637 /* BOWImgDescriptorExtractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BOWImgDescriptorExtractor.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/BOWImgDescriptorExtractor.h; sourceTree = "<group>"; };
+		AC7194FB06769AE83CF374FFE41FE153 /* DetectionModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DetectionModel.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/DetectionModel.h; sourceTree = "<group>"; };
+		AC78B978771C8B9851D24DC90661D7B6 /* StereoBM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StereoBM.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/StereoBM.h; sourceTree = "<group>"; };
+		AD24CEC55074F085285A8165674588DE /* Face.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Face.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Face.h; sourceTree = "<group>"; };
+		AE3D472687042DC84CF5AB94C4875FF1 /* Dictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Dictionary.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Dictionary.h; sourceTree = "<group>"; };
+		AE4ED0252870AF78EADCCDF44DC6B121 /* DTFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTFilter.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/DTFilter.h; sourceTree = "<group>"; };
+		AF59AF776B066AA37A3048397FCF1BFB /* LATCH.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LATCH.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/LATCH.h; sourceTree = "<group>"; };
+		B001D0C0DF13FBE8A2901CD5A2C79A59 /* superres.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = superres.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/superres.hpp; sourceTree = "<group>"; };
+		B1AB92EF366E8911B78984E594D7D96B /* Subdiv2D.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Subdiv2D.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Subdiv2D.h; sourceTree = "<group>"; };
+		B1F50ED40AAA5A0B6371FDCE733E8D81 /* DetectorParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DetectorParameters.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/DetectorParameters.h; sourceTree = "<group>"; };
+		B1F98C1468A41701DC6315F7249177B8 /* aruco.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = aruco.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/aruco.hpp; sourceTree = "<group>"; };
+		B214B996355250809AB8DFF4CA2A724C /* BRISK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRISK.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/BRISK.h; sourceTree = "<group>"; };
+		B2C0D56235B4C70E6CB6E44B0E2EA2FF /* CharucoDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CharucoDetector.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/CharucoDetector.h; sourceTree = "<group>"; };
+		B3B8F669A28B1DE5A8B655F2D58F136B /* Double2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Double2.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Double2.h; sourceTree = "<group>"; };
+		B58587FCB479DA709E182600FDE976B7 /* FaceDetectorYN.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FaceDetectorYN.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/FaceDetectorYN.h; sourceTree = "<group>"; };
+		B5ABD243E6ED663184EC80FEC8C6A046 /* FastBilateralSolverFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FastBilateralSolverFilter.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/FastBilateralSolverFilter.h; sourceTree = "<group>"; };
+		B7FA3B89859CC48F5022389ADA402195 /* MatOfPoint3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatOfPoint3.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MatOfPoint3.h; sourceTree = "<group>"; };
+		B9412D38A29C491B406CCBC31F2374E6 /* FacemarkKazemi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FacemarkKazemi.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/FacemarkKazemi.h; sourceTree = "<group>"; };
+		B9614FBC6BFD073D16AF867C9316F3BA /* MatOfPoint2f.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatOfPoint2f.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MatOfPoint2f.h; sourceTree = "<group>"; };
+		B97C099CC620E6ACBB72181D510AD64B /* Pods-OpencvMacOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpencvMacOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB859E2601E7746FB7724A07D901C297 /* VGG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VGG.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/VGG.h; sourceTree = "<group>"; };
+		BD0276D77D32812CF83F86C8620FD25A /* Videoio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Videoio.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Videoio.h; sourceTree = "<group>"; };
+		BD1F4C4CB99F1ACAEEE949002F6D1AE2 /* MatOfRect2d.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatOfRect2d.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MatOfRect2d.h; sourceTree = "<group>"; };
+		BDD029F3062D5DA052538FE1F0DA207B /* Tonemap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Tonemap.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Tonemap.h; sourceTree = "<group>"; };
+		BE152F537459744C550E2BA82114D547 /* Phase_unwrapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Phase_unwrapping.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Phase_unwrapping.h; sourceTree = "<group>"; };
+		BF3890090207B8450B699DF4B4E8AC51 /* Facemark.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Facemark.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Facemark.h; sourceTree = "<group>"; };
+		BFF6CD86645B89F1BE658FAAC736D793 /* TextRecognitionModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TextRecognitionModel.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TextRecognitionModel.h; sourceTree = "<group>"; };
+		C00DBBD17EE1F401875A210D4E2591D0 /* FisherFaceRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FisherFaceRecognizer.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/FisherFaceRecognizer.h; sourceTree = "<group>"; };
+		C0C489CBC9385DAE67A0DB8DE552E664 /* Pods-OpencvMacOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpencvMacOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		C20E64FA13BF1CB1FEFFCA41B73765A4 /* Pods-OpencvMacOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpencvMacOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C283202D43761AB5857E68E017E39B68 /* mcc.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = mcc.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/mcc.hpp; sourceTree = "<group>"; };
+		C31DEF8BD21D77F16F55ECBB6CC6F284 /* GeneralizedHoughGuil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeneralizedHoughGuil.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/GeneralizedHoughGuil.h; sourceTree = "<group>"; };
+		C4558C02A2D6D4D0886DED930C5A0509 /* LBPHFaceRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBPHFaceRecognizer.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/LBPHFaceRecognizer.h; sourceTree = "<group>"; };
+		C67EA37BA41C0BED19E8D593F886411D /* ArrayUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ArrayUtil.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/ArrayUtil.h; sourceTree = "<group>"; };
+		C6DDB00BF7840ADBD068572DF823A804 /* SinusoidalPatternParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SinusoidalPatternParams.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SinusoidalPatternParams.h; sourceTree = "<group>"; };
+		C74354AA7CE62B688B307AEA85B52BFF /* TrackerKCF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrackerKCF.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TrackerKCF.h; sourceTree = "<group>"; };
+		C876B1F848A1CCD22190313B7FD921BD /* ANN_MLP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANN_MLP.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/ANN_MLP.h; sourceTree = "<group>"; };
+		C8AEF92A9E6D0709481329C7C0EDE099 /* SparseMatchInterpolator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SparseMatchInterpolator.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SparseMatchInterpolator.h; sourceTree = "<group>"; };
+		C99DAB6D40DD037DB2EAB38C68AEFF94 /* SVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVM.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SVM.h; sourceTree = "<group>"; };
+		CAB023CE0FFF9B68B715126124D86128 /* xfeatures2d.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = xfeatures2d.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/xfeatures2d.hpp; sourceTree = "<group>"; };
+		CAC9DBC306CE0C55AE721E7C435C5888 /* BOWTrainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BOWTrainer.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/BOWTrainer.h; sourceTree = "<group>"; };
+		CB713D32AA91980500EA7ADD5E7E0138 /* Pods-OpencvMacOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpencvMacOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB8329A5318DC25E5EA5274AA0422C00 /* intensity_transform.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = intensity_transform.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/intensity_transform.hpp; sourceTree = "<group>"; };
+		CBB645F686AC028AE85C55A0A12EFDBF /* CascadeClassifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CascadeClassifier.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/CascadeClassifier.h; sourceTree = "<group>"; };
+		CBB9CF6C986503FF2B2D2E0A90645EBE /* DictValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DictValue.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/DictValue.h; sourceTree = "<group>"; };
+		CBC72594E4C74DB1D6867BCB3FD45C94 /* BackgroundSubtractorLSBP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackgroundSubtractorLSBP.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/BackgroundSubtractorLSBP.h; sourceTree = "<group>"; };
+		CBDC6513DEAFDF2ED043FEBCABA72DCA /* FaceRecognizerSF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FaceRecognizerSF.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/FaceRecognizerSF.h; sourceTree = "<group>"; };
+		CBDECF6BDD4ECA2FAD6277582DBFA52C /* opencv_modules.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = opencv_modules.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/opencv_modules.hpp; sourceTree = "<group>"; };
+		CC8558B78D58F0E9AEB7362C015B12E7 /* MatOfFloat6.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatOfFloat6.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MatOfFloat6.h; sourceTree = "<group>"; };
+		CD32EA38CADC55C335DE58367FEDFE20 /* PHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PHash.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/PHash.h; sourceTree = "<group>"; };
+		CE5E6A3731F9664E14A22A953512CD83 /* TrackerGOTURN.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrackerGOTURN.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TrackerGOTURN.h; sourceTree = "<group>"; };
+		CFCA9FEC9F24887EF0EE8BCF049F48BF /* Scalar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Scalar.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Scalar.h; sourceTree = "<group>"; };
+		D0C6E2B7B1C63A6F234F6A7F51AA24F7 /* Core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Core.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Core.h; sourceTree = "<group>"; };
+		D11FE299A814CB675B8284CA31F96D1A /* AdaptiveManifoldFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdaptiveManifoldFilter.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/AdaptiveManifoldFilter.h; sourceTree = "<group>"; };
+		D3BAF75B5DF99A17F9160274CE58D3BA /* SuperpixelLSC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SuperpixelLSC.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SuperpixelLSC.h; sourceTree = "<group>"; };
+		D667A03349455834D574AB0ADA58B118 /* Pods-OpencvMacOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpencvMacOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		D6E447D4DF3AE7BAC3546CEC293FB9FA /* SelectiveSearchSegmentationStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SelectiveSearchSegmentationStrategy.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SelectiveSearchSegmentationStrategy.h; sourceTree = "<group>"; };
+		D729368D4C841EA6EA62C8D7BCBA2186 /* TrackerNanoParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrackerNanoParams.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TrackerNanoParams.h; sourceTree = "<group>"; };
+		D75D7E67C5C971AFE291E9AF2F3C97FD /* gapi.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = gapi.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/gapi.hpp; sourceTree = "<group>"; };
+		D77EB62F63A6A8263E0F85BE3F1DD1E1 /* Tracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Tracker.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Tracker.h; sourceTree = "<group>"; };
+		D79D2C574FFCB53EAF342B5C4CE86F57 /* GuidedFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GuidedFilter.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/GuidedFilter.h; sourceTree = "<group>"; };
+		D7AB97FB6540EA8285786C806B8DEFB0 /* TrackerMIL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrackerMIL.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TrackerMIL.h; sourceTree = "<group>"; };
+		D83EA84AD7E1E3210A45042BB68F301E /* BackgroundSubtractorGMG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackgroundSubtractorGMG.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/BackgroundSubtractorGMG.h; sourceTree = "<group>"; };
+		D8A14FAD91E14BE00F2CAC0CB9FFFDFA /* TrackerGOTURNParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrackerGOTURNParams.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TrackerGOTURNParams.h; sourceTree = "<group>"; };
+		DA18317FB20C33F94BB8AE9BDAC72094 /* features2d.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = features2d.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/features2d.hpp; sourceTree = "<group>"; };
+		DB48F6583832E1ACD5FB1F104D1F3374 /* dnn.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = dnn.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/dnn.hpp; sourceTree = "<group>"; };
+		DBC076CE8452D4B37AE7F5A1EEF5C597 /* StandardCollector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StandardCollector.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/StandardCollector.h; sourceTree = "<group>"; };
+		DBE390980F4B8E4CA7A6FDB45F2F08DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DC5AB1119030475A15AF3C901B985A7C /* CharucoParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CharucoParameters.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/CharucoParameters.h; sourceTree = "<group>"; };
+		DE5B8384AF10BBC19F9254D245ED92D9 /* Pods-OpencvMacOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpencvMacOS_Example-Info.plist"; sourceTree = "<group>"; };
+		DEC0FE736F5B763BDB2731F26DC6A488 /* BackgroundSubtractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackgroundSubtractor.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/BackgroundSubtractor.h; sourceTree = "<group>"; };
+		E0DD873EFE50E7BE5B380A0916A272E9 /* dnn_superres.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = dnn_superres.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/dnn_superres.hpp; sourceTree = "<group>"; };
+		E166D553C7AD79686567A32FD6516E56 /* AgastFeatureDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AgastFeatureDetector.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/AgastFeatureDetector.h; sourceTree = "<group>"; };
+		E1B33DA2285C8A1FF7649A4EF07A2FAB /* RidgeDetectionFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RidgeDetectionFilter.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/RidgeDetectionFilter.h; sourceTree = "<group>"; };
+		E2681AA38622FED858EE66E312368772 /* flann.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = flann.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/flann.hpp; sourceTree = "<group>"; };
+		E3DD5694F1E4A43E5A2AB2D55D66A335 /* MatOfDMatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatOfDMatch.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MatOfDMatch.h; sourceTree = "<group>"; };
+		E4EFB9E8ED3FD358B4EB5A4BAD6D3633 /* BackgroundSubtractorGSOC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackgroundSubtractorGSOC.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/BackgroundSubtractorGSOC.h; sourceTree = "<group>"; };
+		E51443066B2D7619DEA30EA282B8241D /* MatQuickLook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatQuickLook.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MatQuickLook.h; sourceTree = "<group>"; };
+		E514FAFDE4E67B320E00BA072CEFC3D1 /* PCTSignaturesSQFD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PCTSignaturesSQFD.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/PCTSignaturesSQFD.h; sourceTree = "<group>"; };
+		E5B7129AE87D70F1EEA7ACC6F39A8A1B /* text.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = text.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/text.hpp; sourceTree = "<group>"; };
+		E62D5C1917BBAA2B0516CBFD37BD323A /* MergeDebevec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MergeDebevec.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MergeDebevec.h; sourceTree = "<group>"; };
+		E74F0CCE147C1C85CE2C981C2E9A7CEE /* quality.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = quality.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/quality.hpp; sourceTree = "<group>"; };
+		E76258D8F6868B981FC6672374B58217 /* ximgproc.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = ximgproc.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/ximgproc.hpp; sourceTree = "<group>"; };
+		E7F23357C7608C18E239683A7FE0C20A /* opencv2-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "opencv2-Swift.h"; path = "OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/opencv2-Swift.h"; sourceTree = "<group>"; };
+		E8126DB392FFDFE79C33880DE2772E10 /* MACE.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MACE.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MACE.h; sourceTree = "<group>"; };
+		E82145BE8BB758E4B132DB1AD729F857 /* core.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = core.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/core.hpp; sourceTree = "<group>"; };
+		E829913E9009F77895AC4EB8D6A4716B /* Imgproc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Imgproc.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Imgproc.h; sourceTree = "<group>"; };
+		E8AA4A66E4DD8B19365647B77FEDB680 /* FacemarkAAM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FacemarkAAM.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/FacemarkAAM.h; sourceTree = "<group>"; };
+		E8DF19CA07CEAE6A43AD5F99337C6B51 /* SparseOpticalFlow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SparseOpticalFlow.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SparseOpticalFlow.h; sourceTree = "<group>"; };
+		E8F90E215FCB17BAC3686F824FCB04EA /* Structured_light.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Structured_light.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Structured_light.h; sourceTree = "<group>"; };
+		E9E043E87157E3BC9199A72B9641E679 /* RadialVarianceHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RadialVarianceHash.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/RadialVarianceHash.h; sourceTree = "<group>"; };
+		E9F0975A6A9624C7828411ACD86A8303 /* ccalib.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = ccalib.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/ccalib.hpp; sourceTree = "<group>"; };
+		EA01BD4062BCFCAF1CDB655CE9FC5232 /* Model.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Model.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Model.h; sourceTree = "<group>"; };
+		EA17AD4EC24475E93E8FAD64FC10B84D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EB02E8B9D960807CA78E360CA7EBAF13 /* IntVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IntVector.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/IntVector.h; sourceTree = "<group>"; };
+		ECC1357FE4AAC3D597CC1D776BF992D0 /* OCRTesseract.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCRTesseract.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/OCRTesseract.h; sourceTree = "<group>"; };
+		EDD991905E9C77DF4C9323B95894BD2A /* BoostDesc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BoostDesc.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/BoostDesc.h; sourceTree = "<group>"; };
+		EE91BA7552858BA2F62A17A69C2C0F59 /* CVObjcUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CVObjcUtil.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/CVObjcUtil.h; sourceTree = "<group>"; };
+		EE9BEE5571489657C4C98BA642324103 /* Pods-OpencvMacOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpencvMacOS_Tests.modulemap"; sourceTree = "<group>"; };
+		EE9EC135AC41DD99C99C2D3DF407D3EF /* SuperpixelSLIC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SuperpixelSLIC.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SuperpixelSLIC.h; sourceTree = "<group>"; };
+		EF42A68EBA2FB0C6626B04EF3EC01968 /* MSDDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSDDetector.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MSDDetector.h; sourceTree = "<group>"; };
+		F078D531880D7D9B75DA9EDDC741E0A5 /* RetinaFastToneMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RetinaFastToneMapping.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/RetinaFastToneMapping.h; sourceTree = "<group>"; };
+		F08C7F2F525EFDCF5CC74350B765D6CF /* Ximgproc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Ximgproc.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Ximgproc.h; sourceTree = "<group>"; };
+		F0974DE0D63736B289B1F869BA1429CB /* Pods-OpencvMacOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpencvMacOS_Example.modulemap"; sourceTree = "<group>"; };
+		F2C82734DEF782E437C80CC42EF50DBE /* MergeExposures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MergeExposures.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/MergeExposures.h; sourceTree = "<group>"; };
+		F2EF7477283313B858CF96604395D238 /* BackgroundSubtractorCNT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackgroundSubtractorCNT.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/BackgroundSubtractorCNT.h; sourceTree = "<group>"; };
+		F371545D0AB9C81D063B22B785EE57E5 /* face.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = face.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/face.hpp; sourceTree = "<group>"; };
+		F38537808144E540AE0C89562052F5FE /* HistogramPhaseUnwrappingParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HistogramPhaseUnwrappingParams.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/HistogramPhaseUnwrappingParams.h; sourceTree = "<group>"; };
+		F4421A63DACF00415F772CC88303FD1C /* StructuredLightPattern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StructuredLightPattern.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/StructuredLightPattern.h; sourceTree = "<group>"; };
+		F4B9C1C26A10F73049537575E0FA4395 /* SegmentationModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SegmentationModel.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SegmentationModel.h; sourceTree = "<group>"; };
+		F578CD6438B30A1F842CE254254E0439 /* DisparityWLSFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DisparityWLSFilter.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/DisparityWLSFilter.h; sourceTree = "<group>"; };
+		F5A574FC3C5DD0ED8D4E281613A3450C /* DTrees.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTrees.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/DTrees.h; sourceTree = "<group>"; };
+		F7B87E283B39A7A3C04CF703E4461F15 /* PhaseUnwrapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PhaseUnwrapping.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/PhaseUnwrapping.h; sourceTree = "<group>"; };
+		F8CBE3B60A43F1DC48C305210E21F391 /* core_detect.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = core_detect.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/core_detect.hpp; sourceTree = "<group>"; };
+		F9D0A54FAF88C8C9731F33ABB559D295 /* TBMR.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBMR.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/TBMR.h; sourceTree = "<group>"; };
+		FAC8CD69FC9BF20D15A09BC3B13E4E97 /* GrayworldWB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GrayworldWB.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/GrayworldWB.h; sourceTree = "<group>"; };
+		FB7B955A8A55610445939A194830C4C4 /* SelectiveSearchSegmentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SelectiveSearchSegmentation.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/SelectiveSearchSegmentation.h; sourceTree = "<group>"; };
+		FC34BB4EAAC3DE9717D89240311EBEF0 /* Board.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Board.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Board.h; sourceTree = "<group>"; };
+		FDD2FD3AA46FCA661023C546927A8B60 /* PCTSignatures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PCTSignatures.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/PCTSignatures.h; sourceTree = "<group>"; };
+		FDF5E9D1501E787D4895F4B7DA9AE32E /* Range.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Range.h; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/Range.h; sourceTree = "<group>"; };
+		FFA9313ECFB185C51E12D8F02222F5D4 /* hfs.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = hfs.hpp; path = OpencvMacOS/lib/opencv2.framework/Versions/A/Headers/hfs.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA1323008DDC8BE8DF11B25DB42EA428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2B025026D91C3F9EC39DA65CB8B4DE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17E1625AC795B2B2E9D0F4ECD1E9DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BFB394AF29B6F4973B4974D43FF37C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AFAB865A1D318EE2121DEAAFAF7F983 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B370FE9ADBF176CEE22446591146173 /* Pods-OpencvMacOS_Example */,
+				4875258C2422C352773B6422F3122C09 /* Pods-OpencvMacOS_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11EC1039A28A4F21F86EA77990604CA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31BD657F39D2FB9B3988F70EFC0F30F6 /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1968A14BF3C616A26243ABF11057CB47 /* OpencvMacOS */ = {
+			isa = PBXGroup;
+			children = (
+				D11FE299A814CB675B8284CA31F96D1A /* AdaptiveManifoldFilter.h */,
+				09572442304F9035B315C88BA63EDD2D /* AffineFeature.h */,
+				6FFC46DE39978CA9348645994C19BB19 /* AffineFeature2D.h */,
+				E166D553C7AD79686567A32FD6516E56 /* AgastFeatureDetector.h */,
+				7CD6D6E526DD102C05CAFA96B2DC7EE2 /* AKAZE.h */,
+				544B3F0B04AD02C513D6C74657E26414 /* Algorithm.h */,
+				529438D6B32A75FC58110A3E20D77E6F /* AlignExposures.h */,
+				05680BBBB78FDBA56EE6860A6DDF98FC /* AlignMTB.h */,
+				C876B1F848A1CCD22190313B7FD921BD /* ANN_MLP.h */,
+				C67EA37BA41C0BED19E8D593F886411D /* ArrayUtil.h */,
+				2644CEA46A0EBC60B74F9928816D1089 /* Aruco.h */,
+				B1F98C1468A41701DC6315F7249177B8 /* aruco.hpp */,
+				5919A8B3D3E7A0990B876360F705A386 /* ArucoDetector.h */,
+				0B9DFD01FBD1C15B41532F409A8BB992 /* AverageHash.h */,
+				DEC0FE736F5B763BDB2731F26DC6A488 /* BackgroundSubtractor.h */,
+				F2EF7477283313B858CF96604395D238 /* BackgroundSubtractorCNT.h */,
+				D83EA84AD7E1E3210A45042BB68F301E /* BackgroundSubtractorGMG.h */,
+				E4EFB9E8ED3FD358B4EB5A4BAD6D3633 /* BackgroundSubtractorGSOC.h */,
+				4915D11A99CE00CC33D39B8C6242755C /* BackgroundSubtractorKNN.h */,
+				CBC72594E4C74DB1D6867BCB3FD45C94 /* BackgroundSubtractorLSBP.h */,
+				2C0679ADF66F2DAB31517DF99783F7D3 /* BackgroundSubtractorLSBPDesc.h */,
+				35D896B8D9D15A27737B3E8687A85456 /* BackgroundSubtractorMOG.h */,
+				5E1F88F2B87C9D6CE18749C17CA41B7F /* BackgroundSubtractorMOG2.h */,
+				61D8BA378ED9DAC8EDC1685D04AF3C5E /* BarcodeDetector.h */,
+				8193D25FC8A7B060AA5837D6A6B7E619 /* BaseCascadeClassifier.h */,
+				44CFAA863FBF0ED10BF817BF82F2014D /* BaseOCR.h */,
+				6C726D3ED49D5EDC377803AD53969783 /* BasicFaceRecognizer.h */,
+				22DB894DE687A54C41CF42C7C9022906 /* BEBLID.h */,
+				1502A01D70DFD4199910F80E952B0734 /* BFMatcher.h */,
+				6A7F313BCC4DB80032F4EDDDA01DD716 /* Bgsegm.h */,
+				27681442A419ED116FA203A0D5E240B9 /* bgsegm.hpp */,
+				5DBAD86FDE7BBC34B0E32A6A2E64A8CA /* BIF.h */,
+				7E5280538068E2D34F4535C168352365 /* Bioinspired.h */,
+				2884CDDB72CED92488AB43F6BD1DB4E5 /* bioinspired.hpp */,
+				5817EEB7516A78FCED99CE213BD55124 /* BlockMeanHash.h */,
+				FC34BB4EAAC3DE9717D89240311EBEF0 /* Board.h */,
+				789024F472A41A851D88E2B405938849 /* Boost.h */,
+				EDD991905E9C77DF4C9323B95894BD2A /* BoostDesc.h */,
+				AB9DD5FAC7E5F8522174229EEDCFC637 /* BOWImgDescriptorExtractor.h */,
+				0E0C524D441F3CAACDBF4C2DBBA1AEFC /* BOWKMeansTrainer.h */,
+				CAC9DBC306CE0C55AE721E7C435C5888 /* BOWTrainer.h */,
+				2DD17A62A729710EB6E08F80485D9A24 /* BriefDescriptorExtractor.h */,
+				B214B996355250809AB8DFF4CA2A724C /* BRISK.h */,
+				0DA1C276998E09AFE2C9C75814410767 /* ByteVector.h */,
+				1FA0602D943AF738E2EB4C4E44DB3658 /* Calib3d.h */,
+				5847ADE5C926BC20F48A2535BFEFE3D5 /* calib3d.hpp */,
+				128BACAB37036C4A712ED151865A5AA5 /* CalibrateCRF.h */,
+				4DB45D6EFBD7F1FF752042EBD7EAB3C1 /* CalibrateDebevec.h */,
+				73A97526B56337CC523A7F274E9842F6 /* CalibrateRobertson.h */,
+				CBB645F686AC028AE85C55A0A12EFDBF /* CascadeClassifier.h */,
+				E9F0975A6A9624C7828411ACD86A8303 /* ccalib.hpp */,
+				99AAFB31FDAB17B15FF7DF5FB2D020F8 /* CharucoBoard.h */,
+				B2C0D56235B4C70E6CB6E44B0E2EA2FF /* CharucoDetector.h */,
+				DC5AB1119030475A15AF3C901B985A7C /* CharucoParameters.h */,
+				96F2D166A35F34757EA06A26AB64A517 /* CirclesGridFinderParameters.h */,
+				AB98D510CDEF99649D1F2DD4F8E22BB8 /* CLAHE.h */,
+				9DE6258CD209E7C1FE3E8F1686EC3668 /* ClassificationModel.h */,
+				8BE8E8062FE0B52DDA3CE58F1D145FFD /* ColorMomentHash.h */,
+				8E888156E1C4E17C19C0E3A67C6A15E3 /* ContourFitting.h */,
+				31AD7746A33FF83F279C8F5A653D4148 /* Converters.h */,
+				D0C6E2B7B1C63A6F234F6A7F51AA24F7 /* Core.h */,
+				E82145BE8BB758E4B132DB1AD729F857 /* core.hpp */,
+				F8CBE3B60A43F1DC48C305210E21F391 /* core_detect.hpp */,
+				51E20E439434D28244830F27BF6D36CC /* cvconfig.h */,
+				EE91BA7552858BA2F62A17A69C2C0F59 /* CVObjcUtil.h */,
+				107F353DE504D0DFDA66AC084B326370 /* CvType.h */,
+				0A8303D942F4C55A4622E6F9BC0BCD9E /* DAISY.h */,
+				991CD6BA3FAB6BB8E32E56A068118325 /* DenseOpticalFlow.h */,
+				69FB13697468C1AA9169EA9F00531168 /* DescriptorMatcher.h */,
+				AC7194FB06769AE83CF374FFE41FE153 /* DetectionModel.h */,
+				B1F50ED40AAA5A0B6371FDCE733E8D81 /* DetectorParameters.h */,
+				AE3D472687042DC84CF5AB94C4875FF1 /* Dictionary.h */,
+				CBB9CF6C986503FF2B2D2E0A90645EBE /* DictValue.h */,
+				1D78D9A4B2425229380C1ED5A719CCE6 /* DISOpticalFlow.h */,
+				1E32AE62151899A44F31C8019551EEFF /* DisparityFilter.h */,
+				F578CD6438B30A1F842CE254254E0439 /* DisparityWLSFilter.h */,
+				0E8023517A0503292492ED5BCEF45CF3 /* DMatch.h */,
+				A06C647FF4277A896447FEB6BD71EDDA /* Dnn.h */,
+				DB48F6583832E1ACD5FB1F104D1F3374 /* dnn.hpp */,
+				E0DD873EFE50E7BE5B380A0916A272E9 /* dnn_superres.hpp */,
+				B3B8F669A28B1DE5A8B655F2D58F136B /* Double2.h */,
+				06EB02D36CEFEEAA5F0A724AD91C02EA /* Double3.h */,
+				853F15D570F65661A8A10C9880722A36 /* DoubleVector.h */,
+				3F63D434C685243217CC17BD0DAC2AC3 /* dpm.hpp */,
+				AE4ED0252870AF78EADCCDF44DC6B121 /* DTFilter.h */,
+				F5A574FC3C5DD0ED8D4E281613A3450C /* DTrees.h */,
+				5A864EBCCE24F5A17372AF1A832F2F24 /* EdgeAwareInterpolator.h */,
+				83ECBC534A4F05C6689B371E8B3A702F /* EdgeBoxes.h */,
+				78BC07BD7C01BDB40029947E2CAAC8B7 /* EdgeDrawing.h */,
+				A74C02DCD85383C59588130ECBD0CF21 /* EdgeDrawingParams.h */,
+				32EB0342C1BE85FA4F977EC3AB116E5C /* EigenFaceRecognizer.h */,
+				8BC2946ACD0251F3601E496C240D4FED /* EM.h */,
+				4307CE32F20AC7BF6533613708A9AA3C /* ERFilter.h */,
+				78E9484391C9E562D6B265B215322FA7 /* ERFilterCallback.h */,
+				81AD17FC98D17987595EC932E8846EBE /* EstimateParameters.h */,
+				AD24CEC55074F085285A8165674588DE /* Face.h */,
+				F371545D0AB9C81D063B22B785EE57E5 /* face.hpp */,
+				B58587FCB479DA709E182600FDE976B7 /* FaceDetectorYN.h */,
+				BF3890090207B8450B699DF4B4E8AC51 /* Facemark.h */,
+				E8AA4A66E4DD8B19365647B77FEDB680 /* FacemarkAAM.h */,
+				B9412D38A29C491B406CCBC31F2374E6 /* FacemarkKazemi.h */,
+				309AE64E70EA0656243ED1DD680CC292 /* FacemarkLBF.h */,
+				244035A26449F862433656371167C1A0 /* FacemarkTrain.h */,
+				33B9F6EE78E533C4E70E3869DBB15B24 /* FaceRecognizer.h */,
+				CBDC6513DEAFDF2ED043FEBCABA72DCA /* FaceRecognizerSF.h */,
+				A1B32356C38A67F1A0B88D8174ABEB0C /* FarnebackOpticalFlow.h */,
+				B5ABD243E6ED663184EC80FEC8C6A046 /* FastBilateralSolverFilter.h */,
+				600A6C740352B849DCA533C9F9D0CC51 /* FastFeatureDetector.h */,
+				764004227BC6962D96414948E6F7B7B3 /* FastGlobalSmootherFilter.h */,
+				75D6E2A51E4AE63941A04A51604ED9E3 /* FastLineDetector.h */,
+				2AD61C76F0328BBAA5C698105A8447D6 /* Feature2D.h */,
+				37CC54D512800BD00A679F96218D4174 /* Features2d.h */,
+				DA18317FB20C33F94BB8AE9BDAC72094 /* features2d.hpp */,
+				C00DBBD17EE1F401875A210D4E2591D0 /* FisherFaceRecognizer.h */,
+				E2681AA38622FED858EE66E312368772 /* flann.hpp */,
+				36FA8F5BD9E25E71A9D34D33B65C8AF0 /* FlannBasedMatcher.h */,
+				4A0EDDF3D114A69ABAC2DF2AD1BDDAFD /* Float4.h */,
+				6DD135B24C0D7FBA547ECD17CBCB39A3 /* Float6.h */,
+				2509DA44FEEE58B6879C4C4033D18FBB /* FloatVector.h */,
+				96B7E717EF4672F6A4A96254F265A4C4 /* FREAK.h */,
+				848676E35C1C0DF22A54B585513D175D /* fuzzy.hpp */,
+				D75D7E67C5C971AFE291E9AF2F3C97FD /* gapi.hpp */,
+				23619E5C66EEFD1F7CCA69C784D495D2 /* GeneralizedHough.h */,
+				6996208F62D7E4FF79FDF28214287D4C /* GeneralizedHoughBallard.h */,
+				C31DEF8BD21D77F16F55ECBB6CC6F284 /* GeneralizedHoughGuil.h */,
+				6F27A2D1EDB32BF73ABAACA71D33CEF5 /* GFTTDetector.h */,
+				8F050EECA9A3704A632C0F4EDD27B431 /* GraphicalCodeDetector.h */,
+				7D359F55FCA330AA3CDAE16D6DB967F3 /* GraphSegmentation.h */,
+				9780DC6FEB9E5386C0594BF964E03FDA /* GrayCodePattern.h */,
+				FAC8CD69FC9BF20D15A09BC3B13E4E97 /* GrayworldWB.h */,
+				0E5AE31E48CA2BCFCCFC06A56844DA5D /* GridBoard.h */,
+				D79D2C574FFCB53EAF342B5C4CE86F57 /* GuidedFilter.h */,
+				100AE23ED8354B04B8C88292027A7E27 /* HarrisLaplaceFeatureDetector.h */,
+				FFA9313ECFB185C51E12D8F02222F5D4 /* hfs.hpp */,
+				AB2305927202D8C62060D137C50BB6D3 /* highgui.hpp */,
+				0D7178E9AE3409FCBEE1595E763E9C4C /* HistogramPhaseUnwrapping.h */,
+				F38537808144E540AE0C89562052F5FE /* HistogramPhaseUnwrappingParams.h */,
+				1D9C638F35C86BB075644E8142666466 /* HOGDescriptor.h */,
+				33D13748F041FB89EF8C27440ABC7ADB /* Image2BlobParams.h */,
+				89F96E8171F98ED38E225CC476073F07 /* Img_hash.h */,
+				8848F1BA5E1F09D270BFB34D48F26F08 /* img_hash.hpp */,
+				7D8DA34C5FE8E6B38A3A0AB647187B2E /* Imgcodecs.h */,
+				43CE0D13CABBB1D62A0C137523DE1FD4 /* imgcodecs.hpp */,
+				2B8092D36D3F80DC3D260908584CACF0 /* ImgHashBase.h */,
+				E829913E9009F77895AC4EB8D6A4716B /* Imgproc.h */,
+				9136A904015BDEC704AEADB6FA37E55B /* imgproc.hpp */,
+				89A754DC8E995FB01D0AD80429C6D3A2 /* Int4.h */,
+				0083FF619A5EC9AC0A71441ED01D6076 /* IntelligentScissorsMB.h */,
+				CB8329A5318DC25E5EA5274AA0422C00 /* intensity_transform.hpp */,
+				EB02E8B9D960807CA78E360CA7EBAF13 /* IntVector.h */,
+				7F32A37652506774AA4EC160544A4E4F /* KalmanFilter.h */,
+				0B1F9F177788F7326A3C8E1914ACB98F /* KAZE.h */,
+				96859399283FE5A3498EF2B5E267CD57 /* KeyPoint.h */,
+				4EAED93389D224F25237AB9E7152C31A /* KeypointsModel.h */,
+				0AE170425964A1AF0A44131C3E0EA01B /* KNearest.h */,
+				AF59AF776B066AA37A3048397FCF1BFB /* LATCH.h */,
+				153E1E156FDF127E1399DE095E6F298D /* Layer.h */,
+				C4558C02A2D6D4D0886DED930C5A0509 /* LBPHFaceRecognizer.h */,
+				5EC86C3FD7D763380D8FC6291939079D /* LearningBasedWB.h */,
+				10D8B344758BC5EDE0EC4BB2B5725835 /* line_descriptor.hpp */,
+				826DDFB69994832438CA73E7DB7B24AF /* LineSegmentDetector.h */,
+				8B1C496452C4D262AF076DE67ADDC0CC /* LogisticRegression.h */,
+				4EB2B0F35A773D4C3AAE61D1A390B57C /* LUCID.h */,
+				E8126DB392FFDFE79C33880DE2772E10 /* MACE.h */,
+				6356027A4235B7F9126ABE1C627EFC7A /* MarrHildrethHash.h */,
+				0CA4CA81E1ADFFBDCF77023AE9BD3672 /* Mat.h */,
+				77A8E1ECEF6F5AC1BC2C2F0D207C5021 /* MatConverters.h */,
+				A2DC1514C6A2D75DEFABC98D5472B9BC /* MatOfByte.h */,
+				E3DD5694F1E4A43E5A2AB2D55D66A335 /* MatOfDMatch.h */,
+				0555C9410B8F9EC113E417A1375FB38D /* MatOfDouble.h */,
+				64B216040BEA852AE8C6CB30999477C6 /* MatOfFloat.h */,
+				A8508463465F183D3BCC3B3B6C4AE19E /* MatOfFloat4.h */,
+				CC8558B78D58F0E9AEB7362C015B12E7 /* MatOfFloat6.h */,
+				17B71EEF73C1071124FF81B4C8AD0D4F /* MatOfInt.h */,
+				76AAC92ED3E8004DE36342E0CDDFF418 /* MatOfInt4.h */,
+				6E09DD714C5283F5AE39AED1F68D1B2A /* MatOfKeyPoint.h */,
+				B9614FBC6BFD073D16AF867C9316F3BA /* MatOfPoint2f.h */,
+				0336B63C83CF93249B1D205B7CA17C10 /* MatOfPoint2i.h */,
+				B7FA3B89859CC48F5022389ADA402195 /* MatOfPoint3.h */,
+				9C082E1FEF83CF49D136CE16761F9CAF /* MatOfPoint3f.h */,
+				BD1F4C4CB99F1ACAEEE949002F6D1AE2 /* MatOfRect2d.h */,
+				272510E380A3C73275ACC7FA7812DED8 /* MatOfRect2i.h */,
+				A15B389712DA03881A057DDF58FA05C3 /* MatOfRotatedRect.h */,
+				E51443066B2D7619DEA30EA282B8241D /* MatQuickLook.h */,
+				C283202D43761AB5857E68E017E39B68 /* mcc.hpp */,
+				E62D5C1917BBAA2B0516CBFD37BD323A /* MergeDebevec.h */,
+				F2C82734DEF782E437C80CC42EF50DBE /* MergeExposures.h */,
+				98B175CF27A42F2ED05EF6F41397FEF5 /* MergeMertens.h */,
+				934354DE2AA21F87AD48605E2F5A7F89 /* MergeRobertson.h */,
+				95D2AB813EB1F19E8616DB47A8CC4CDB /* MinMaxLocResult.h */,
+				5FA1CF4824BFF2F3644E54714EE1AC18 /* Ml.h */,
+				10BC2956C415DA6C62BCF35A7D2D205E /* ml.hpp */,
+				EA01BD4062BCFCAF1CDB655CE9FC5232 /* Model.h */,
+				577AEE8943AF72D692D86D1D89931C27 /* Moments.h */,
+				EF42A68EBA2FB0C6626B04EF3EC01968 /* MSDDetector.h */,
+				7774206E2CA623D08C2D3D3536FD765E /* MSER.h */,
+				79567DFBB8C8F8A874D14988BDA57C1D /* Net.h */,
+				3143DEFECA95C7F7383AD26A9F362B03 /* NormalBayesClassifier.h */,
+				7CBEEC171BA4345DCD23D4FF232F6F4A /* Objdetect.h */,
+				924618C1F3550A1563A4700EDB6D4B17 /* objdetect.hpp */,
+				40E4A53F4E4F05C9B5836B81F90CD5AE /* OCRBeamSearchDecoder.h */,
+				8B4DDB273364820CC3EF0457E298523F /* OCRBeamSearchDecoderClassifierCallback.h */,
+				13878A2FA4AE236FC8A23C2E93356BA6 /* OCRHMMDecoder.h */,
+				30EEF64AE9AB68F96E025B43AEAD0C91 /* OCRHMMDecoderClassifierCallback.h */,
+				ECC1357FE4AAC3D597CC1D776BF992D0 /* OCRTesseract.h */,
+				0EDE7516CA33E79501454F82D5B8CCD2 /* opencv.hpp */,
+				A166C728CCC8C6A4ABF9D27125331CCD /* opencv2.h */,
+				E7F23357C7608C18E239683A7FE0C20A /* opencv2-Swift.h */,
+				CBDECF6BDD4ECA2FAD6277582DBFA52C /* opencv_modules.hpp */,
+				8A4E990E844DCE458130B791CCAD2C0F /* optflow.hpp */,
+				A91A2093A0027278C6DDEB8C331F10A7 /* ORB.h */,
+				01D54AB05DF3621AA8183D7F6C2FAEC8 /* ParamGrid.h */,
+				FDD2FD3AA46FCA661023C546927A8B60 /* PCTSignatures.h */,
+				E514FAFDE4E67B320E00BA072CEFC3D1 /* PCTSignaturesSQFD.h */,
+				BE152F537459744C550E2BA82114D547 /* Phase_unwrapping.h */,
+				1E1EFC8E6A42682787EF6590C1C359F4 /* phase_unwrapping.hpp */,
+				F7B87E283B39A7A3C04CF703E4461F15 /* PhaseUnwrapping.h */,
+				CD32EA38CADC55C335DE58367FEDFE20 /* PHash.h */,
+				3EB5CFE21FD5BC7B0E77E02284BDE932 /* Photo.h */,
+				460E20297F979AE1134BB2409F9B2717 /* photo.hpp */,
+				997D318059C62465A132A11FCB87558C /* Plot.h */,
+				8B4D50D7F6CD823C3964AF8213BA2F8C /* plot.hpp */,
+				642CAC4D3810F69BD91504A2E1A86E26 /* Plot2d.h */,
+				64026218BDAA92A7577C4FD72D1081D9 /* Point2d.h */,
+				AA65BD33373C183106EA4424AB6EEFDD /* Point2f.h */,
+				6DE1879FB13D91647938410B6CB2B769 /* Point2i.h */,
+				3CEAAA86D0FF9ADB2E5D866296C9CEA9 /* Point3d.h */,
+				33AB79CDB2ADF56087EEDA39DFE144D1 /* Point3f.h */,
+				5E1907C63AB42E1909C14293E7B21137 /* Point3i.h */,
+				36E023707D9F80C3385A6B75A17272AC /* PredictCollector.h */,
+				4606350C564C2C08B4017DCBFA57E20E /* QRCodeDetector.h */,
+				300D571E8C96489284D942A2DBBC323B /* QRCodeDetectorAruco.h */,
+				A712391A8D215FAF361C53FDAD5DAA99 /* QRCodeDetectorArucoParams.h */,
+				8976EB0D3B4CEA470999EB0DA83838C2 /* QRCodeEncoder.h */,
+				871FC021A21B6A10A96F546DE75F7708 /* QRCodeEncoderParams.h */,
+				E74F0CCE147C1C85CE2C981C2E9A7CEE /* quality.hpp */,
+				E9E043E87157E3BC9199A72B9641E679 /* RadialVarianceHash.h */,
+				FDF5E9D1501E787D4895F4B7DA9AE32E /* Range.h */,
+				143F8A185A647D7DA59FFBCCBF79AAE7 /* rapid.hpp */,
+				A0AF9A9F7E25B2E6D468E495B0C99AC6 /* Rect2d.h */,
+				86BC9F43F4FE4C732775A6D0741239F4 /* Rect2f.h */,
+				3EDCE058ADD9EEB40EE4E6A15FF7B6FA /* Rect2i.h */,
+				42AF6406F8B962FDAF5476A8F7F89DEB /* RefineParameters.h */,
+				5F26113C27F5F57DD4F948B6E8495B14 /* Retina.h */,
+				F078D531880D7D9B75DA9EDDC741E0A5 /* RetinaFastToneMapping.h */,
+				2D90BEE56DDE693F9173B7C7691EBE05 /* RFFeatureGetter.h */,
+				1A630AE372318C54CB2715E5C2C63D73 /* rgbd.hpp */,
+				698F2B25548CBD4D47C0F5EAA8C467E2 /* RICInterpolator.h */,
+				E1B33DA2285C8A1FF7649A4EF07A2FAB /* RidgeDetectionFilter.h */,
+				7D17E0FFC4F878825E9A0D9E03072EFE /* RotatedRect.h */,
+				4AA57FB1EDB63625DADDA77586B68040 /* RTrees.h */,
+				17457E50376C452AB0B6204C44EFB1EE /* saliency.hpp */,
+				CFCA9FEC9F24887EF0EE8BCF049F48BF /* Scalar.h */,
+				704E88E72F1F6DCB884CDFFCFA506429 /* ScanSegment.h */,
+				F4B9C1C26A10F73049537575E0FA4395 /* SegmentationModel.h */,
+				FB7B955A8A55610445939A194830C4C4 /* SelectiveSearchSegmentation.h */,
+				D6E447D4DF3AE7BAC3546CEC293FB9FA /* SelectiveSearchSegmentationStrategy.h */,
+				82D05D1A840B97B46F2AF2FA64331B54 /* SelectiveSearchSegmentationStrategyColor.h */,
+				66AC77715E090C588206D60A452DA0C0 /* SelectiveSearchSegmentationStrategyFill.h */,
+				9BA783457574EABCA16D25B827FF9621 /* SelectiveSearchSegmentationStrategyMultiple.h */,
+				46B1C844DFEAE32C19A631AC193D0980 /* SelectiveSearchSegmentationStrategySize.h */,
+				94C2E3B3086F8A7A3281471AB96A75F1 /* SelectiveSearchSegmentationStrategyTexture.h */,
+				3473027501595B9FD777CAC5E08C49A2 /* shape.hpp */,
+				3A29C4360042B3DF759AF3BF3A7249FA /* SIFT.h */,
+				A95AA4851DFECA34297CAEE539D80AC4 /* SimpleBlobDetector.h */,
+				77AC9C5222E222B6FDBB7FF184DEAF8E /* SimpleBlobDetectorParams.h */,
+				824FE6E429687C5CAE1BA80187640DBD /* SimpleWB.h */,
+				260F47C628E3F75E50B8139C2F6FEB27 /* SinusoidalPattern.h */,
+				C6DDB00BF7840ADBD068572DF823A804 /* SinusoidalPatternParams.h */,
+				26AF4BD67FEAFBB896A92D4CAFF4FEA2 /* Size2d.h */,
+				904592849E942F0601D1015757EE31BF /* Size2f.h */,
+				8A6977A226DDF68B01D87BFC68B2CAE4 /* Size2i.h */,
+				C8AEF92A9E6D0709481329C7C0EDE099 /* SparseMatchInterpolator.h */,
+				E8DF19CA07CEAE6A43AD5F99337C6B51 /* SparseOpticalFlow.h */,
+				833541C21640A6D4E7CB77071A9B7C07 /* SparsePyrLKOpticalFlow.h */,
+				DBC076CE8452D4B37AE7F5A1EEF5C597 /* StandardCollector.h */,
+				21F7366E80F84CF703A93A570F0AB2F7 /* StarDetector.h */,
+				5459A227524BC236967F337FEFF9E653 /* StatModel.h */,
+				06B825A2E5FF428AB4D2BFD059F04554 /* stereo.hpp */,
+				AC78B978771C8B9851D24DC90661D7B6 /* StereoBM.h */,
+				A31EDB722CA09C7769E7F17E07664375 /* StereoMatcher.h */,
+				6D79166932387A9A9E868176DF8A3BA1 /* StereoSGBM.h */,
+				A5D270C42FC5690661527A3B0792C5C1 /* stitching.hpp */,
+				E8F90E215FCB17BAC3686F824FCB04EA /* Structured_light.h */,
+				A27C7687EB99DF5B74852392C7237052 /* structured_light.hpp */,
+				9C52E19613F1DB5519029A579C6578F2 /* StructuredEdgeDetection.h */,
+				F4421A63DACF00415F772CC88303FD1C /* StructuredLightPattern.h */,
+				B1AB92EF366E8911B78984E594D7D96B /* Subdiv2D.h */,
+				D3BAF75B5DF99A17F9160274CE58D3BA /* SuperpixelLSC.h */,
+				8F4E17D72E7FE057BD2EA24660601573 /* SuperpixelSEEDS.h */,
+				EE9EC135AC41DD99C99C2D3DF407D3EF /* SuperpixelSLIC.h */,
+				B001D0C0DF13FBE8A2901CD5A2C79A59 /* superres.hpp */,
+				1DED69B4E33C88FC1A131F283897237F /* SURF.h */,
+				9AB4577C43E951CCECAE4590C3D7436C /* surface_matching.hpp */,
+				C99DAB6D40DD037DB2EAB38C68AEFF94 /* SVM.h */,
+				8F473C20EEBB65C207B5B99DF84B735B /* SVMSGD.h */,
+				0DFDAF3CC83CFE5197B17AB703332EEF /* SyntheticSequenceGenerator.h */,
+				F9D0A54FAF88C8C9731F33ABB559D295 /* TBMR.h */,
+				71ED05AE26FD90EBCA84B67D122DE3AE /* TEBLID.h */,
+				128BB17448696DC25C5DCA12BAE1A40A /* TermCriteria.h */,
+				5BF9F591394B24CBB53DE93DFE50D41F /* Text.h */,
+				E5B7129AE87D70F1EEA7ACC6F39A8A1B /* text.hpp */,
+				12DD613CBE2003D876C4752DC6AED5E3 /* TextDetectionModel.h */,
+				07E8E75B4266B78E442F19037EE11564 /* TextDetectionModel_DB.h */,
+				07F3E81AAEF061FE7047B0EC0242822B /* TextDetectionModel_EAST.h */,
+				2495D7B7AFC65C4CC7A208E5B00447F7 /* TextDetector.h */,
+				9728180CFE788AC428515F9212CF1076 /* TextDetectorCNN.h */,
+				BFF6CD86645B89F1BE658FAAC736D793 /* TextRecognitionModel.h */,
+				2008BAFFA7E057DEE66D7D1D7AE9CBAD /* TickMeter.h */,
+				BDD029F3062D5DA052538FE1F0DA207B /* Tonemap.h */,
+				3A0282A287969A2E6D0603687C501E70 /* TonemapDrago.h */,
+				00CB8C1747DA4165217DCED8F2F4C055 /* TonemapDurand.h */,
+				644EB8A45969A1DCD6D728831CFB758B /* TonemapMantiuk.h */,
+				41C3C43917D20DC07BBEEBAAD6458BD4 /* TonemapReinhard.h */,
+				D77EB62F63A6A8263E0F85BE3F1DD1E1 /* Tracker.h */,
+				536A038E8053FCDAC88228A48942BBF9 /* TrackerCSRT.h */,
+				28A7D3E982D88BF7415A59F384238A9B /* TrackerCSRTParams.h */,
+				5C22B99981F2C53AF312DB1762C3B7B5 /* TrackerDaSiamRPN.h */,
+				36361EB772F16D03DF2349037214A853 /* TrackerDaSiamRPNParams.h */,
+				CE5E6A3731F9664E14A22A953512CD83 /* TrackerGOTURN.h */,
+				D8A14FAD91E14BE00F2CAC0CB9FFFDFA /* TrackerGOTURNParams.h */,
+				C74354AA7CE62B688B307AEA85B52BFF /* TrackerKCF.h */,
+				3C66A703279C776761E6149D1E09BC7C /* TrackerKCFParams.h */,
+				D7AB97FB6540EA8285786C806B8DEFB0 /* TrackerMIL.h */,
+				71DB749C454EA1B789BB5F409A8500A2 /* TrackerMILParams.h */,
+				A646AE36AD63323785D31E00CCA61F0B /* TrackerNano.h */,
+				D729368D4C841EA6EA62C8D7BCBA2186 /* TrackerNanoParams.h */,
+				901F11274DA8284034599B57CB1D2FBA /* Tracking.h */,
+				2F281AEA7E193AA3EA6A91C60D584CD0 /* tracking.hpp */,
+				6AC26F632EDF6A1F7C03C8ABB7540A14 /* TrainData.h */,
+				87EF86F963AE8A525F54C525E9F1F6F6 /* TransientAreasSegmentationModule.h */,
+				3B0B9ED288B2C3EDCA31B36FA91F1BA7 /* UsacParams.h */,
+				6D52F577A7A6B81E43277B516BD99C1B /* VariationalRefinement.h */,
+				BB859E2601E7746FB7724A07D901C297 /* VGG.h */,
+				1B4C680A0E354A3182FAB7FF020EB268 /* Video.h */,
+				8B97B646A3D0621C7F0D5940E59AC137 /* video.hpp */,
+				2E526CCEB42C9135848DFE7057BE1753 /* VideoCapture.h */,
+				BD0276D77D32812CF83F86C8620FD25A /* Videoio.h */,
+				2C8CD8EE9072D610D7758758E9D2E78B /* videoio.hpp */,
+				8744D58A31DB002695C64EE24554A6F1 /* videostab.hpp */,
+				4831AC5F53A13967D2EB054C39C4D927 /* VideoWriter.h */,
+				928CD2CAEC82C4BD4C9FF577BD78B89B /* Wechat_qrcode.h */,
+				25DC54AE3773F080DABE2B61935BCCDB /* wechat_qrcode.hpp */,
+				7292E3BEB496613E1269A6D727A48150 /* WeChatQRCode.h */,
+				1095921E2F423EAC8D8002FEA0770C59 /* WhiteBalancer.h */,
+				4D0A51FF55A1CDDD5E353AA794D7DA45 /* world.hpp */,
+				91FCB43FF1A017A0490CAFC11A8E6346 /* Xfeatures2d.h */,
+				CAB023CE0FFF9B68B715126124D86128 /* xfeatures2d.hpp */,
+				F08C7F2F525EFDCF5CC74350B765D6CF /* Ximgproc.h */,
+				E76258D8F6868B981FC6672374B58217 /* ximgproc.hpp */,
+				0F709934091E93D841C53330E9707AD0 /* xobjdetect.hpp */,
+				23D616F895E17F9E1A1325285D9F7503 /* Xphoto.h */,
+				0DD4F30F6422970554DECD4D98CFDBDD /* xphoto.hpp */,
+				11EC1039A28A4F21F86EA77990604CA6 /* Frameworks */,
+				978E401D78A9301D20E935EE101AB806 /* Pod */,
+				96A0672C983CF259AA78B8696BA37D5F /* Support Files */,
+			);
+			name = OpencvMacOS;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		26151F7D5BB69C2368F436962FCBB5C0 /* Pods-OpencvMacOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EE9BEE5571489657C4C98BA642324103 /* Pods-OpencvMacOS_Tests.modulemap */,
+				B97C099CC620E6ACBB72181D510AD64B /* Pods-OpencvMacOS_Tests-acknowledgements.markdown */,
+				19271C6030E71EFEAB9884BF78E3DE0D /* Pods-OpencvMacOS_Tests-acknowledgements.plist */,
+				D667A03349455834D574AB0ADA58B118 /* Pods-OpencvMacOS_Tests-dummy.m */,
+				66B8D7BAD2630E947B32E7E4AB45B37B /* Pods-OpencvMacOS_Tests-Info.plist */,
+				56181F863826368D6EFC794BB6BA0A25 /* Pods-OpencvMacOS_Tests-umbrella.h */,
+				17B41892EF07F3D8C31EF83D6B241E43 /* Pods-OpencvMacOS_Tests.debug.xcconfig */,
+				C20E64FA13BF1CB1FEFFCA41B73765A4 /* Pods-OpencvMacOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-OpencvMacOS_Tests";
+			path = "Target Support Files/Pods-OpencvMacOS_Tests";
+			sourceTree = "<group>";
+		};
+		822E3028966D7C07BF54F5B16B9707F0 /* Pods-OpencvMacOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F0974DE0D63736B289B1F869BA1429CB /* Pods-OpencvMacOS_Example.modulemap */,
+				C0C489CBC9385DAE67A0DB8DE552E664 /* Pods-OpencvMacOS_Example-acknowledgements.markdown */,
+				CB713D32AA91980500EA7ADD5E7E0138 /* Pods-OpencvMacOS_Example-acknowledgements.plist */,
+				312EABA8C73AF25BD7F704456CD76CCC /* Pods-OpencvMacOS_Example-dummy.m */,
+				DE5B8384AF10BBC19F9254D245ED92D9 /* Pods-OpencvMacOS_Example-Info.plist */,
+				AB61F160ACF8103F9459AC903A6FC393 /* Pods-OpencvMacOS_Example-umbrella.h */,
+				39251038F5CDC9E0DA01E7AA9E040696 /* Pods-OpencvMacOS_Example.debug.xcconfig */,
+				7E4CA80D559DC5EA6E09443A547ABAA5 /* Pods-OpencvMacOS_Example.release.xcconfig */,
+			);
+			name = "Pods-OpencvMacOS_Example";
+			path = "Target Support Files/Pods-OpencvMacOS_Example";
+			sourceTree = "<group>";
+		};
+		96A0672C983CF259AA78B8696BA37D5F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				892EEEDDE6CEFF10CA696C8767867F5F /* OpencvMacOS.debug.xcconfig */,
+				5A7F1161BEEE1F0A10726ADEB6D7A3BD /* OpencvMacOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OpencvMacOS";
+			sourceTree = "<group>";
+		};
+		978E401D78A9301D20E935EE101AB806 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DBE390980F4B8E4CA7A6FDB45F2F08DA /* LICENSE */,
+				31F2C378DBD6D503E02636CB069145E7 /* OpencvMacOS.podspec */,
+				EA17AD4EC24475E93E8FAD64FC10B84D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E1FA0413C240672442FC942051276DA6 /* Development Pods */,
+				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				0AFAB865A1D318EE2121DEAAFAF7F983 /* Products */,
+				F5D8416D4C6657B011897987AE4996B0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1FA0413C240672442FC942051276DA6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1968A14BF3C616A26243ABF11057CB47 /* OpencvMacOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		F5D8416D4C6657B011897987AE4996B0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				822E3028966D7C07BF54F5B16B9707F0 /* Pods-OpencvMacOS_Example */,
+				26151F7D5BB69C2368F436962FCBB5C0 /* Pods-OpencvMacOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		619FA75944C6E1261FB382280BB79868 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76868BE0FAA4087454A6D4C8EBEDAE7 /* Pods-OpencvMacOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7060A4C0EEFCF2F2F1A7C81CED9B1D9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76128E09A8FE98F2B9E481ABB342A5D /* Pods-OpencvMacOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C8BCA355752A8398DEF61E067976F312 /* Pods-OpencvMacOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D63E2687B52635F4ED29087ACE8073 /* Build configuration list for PBXNativeTarget "Pods-OpencvMacOS_Tests" */;
+			buildPhases = (
+				619FA75944C6E1261FB382280BB79868 /* Headers */,
+				DF4C46EFFC76FE8AE4AE236E96602A26 /* Sources */,
+				CA1323008DDC8BE8DF11B25DB42EA428 /* Frameworks */,
+				30873987E660F7107AEAEB42FB856B4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A19B154AA83C819F3DF0C6F9D068D35B /* PBXTargetDependency */,
+			);
+			name = "Pods-OpencvMacOS_Tests";
+			productName = Pods_OpencvMacOS_Tests;
+			productReference = 4875258C2422C352773B6422F3122C09 /* Pods-OpencvMacOS_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D43F7F4DE0768B16433870647D08AE5D /* Pods-OpencvMacOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CF397E2D14107899864DEF2788B6184 /* Build configuration list for PBXNativeTarget "Pods-OpencvMacOS_Example" */;
+			buildPhases = (
+				7060A4C0EEFCF2F2F1A7C81CED9B1D9B /* Headers */,
+				E8874D7985603F00E6F86E888E02D745 /* Sources */,
+				E17E1625AC795B2B2E9D0F4ECD1E9DD1 /* Frameworks */,
+				8C987FC3BB147BEBC08FD78614B91A74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97808F8069442A8385896ED05A427737 /* PBXTargetDependency */,
+			);
+			name = "Pods-OpencvMacOS_Example";
+			productName = Pods_OpencvMacOS_Example;
+			productReference = 7B370FE9ADBF176CEE22446591146173 /* Pods-OpencvMacOS_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0AFAB865A1D318EE2121DEAAFAF7F983 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4E6A738CF1AC5FB09F20DBF5462CA3B /* OpencvMacOS */,
+				D43F7F4DE0768B16433870647D08AE5D /* Pods-OpencvMacOS_Example */,
+				C8BCA355752A8398DEF61E067976F312 /* Pods-OpencvMacOS_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30873987E660F7107AEAEB42FB856B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C987FC3BB147BEBC08FD78614B91A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF4C46EFFC76FE8AE4AE236E96602A26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA283B24BB4F7392B8A27FC27FB8EAC /* Pods-OpencvMacOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8874D7985603F00E6F86E888E02D745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33490AEA3D2AF61BEE90BC91008A9FCD /* Pods-OpencvMacOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97808F8069442A8385896ED05A427737 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OpencvMacOS;
+			target = E4E6A738CF1AC5FB09F20DBF5462CA3B /* OpencvMacOS */;
+			targetProxy = BE01558BC0DD646738FE59CA8416AC07 /* PBXContainerItemProxy */;
+		};
+		A19B154AA83C819F3DF0C6F9D068D35B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OpencvMacOS_Example";
+			target = D43F7F4DE0768B16433870647D08AE5D /* Pods-OpencvMacOS_Example */;
+			targetProxy = 74D07C19CC91AE07920AF15C24C3C8F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3783882BF7538F90FBEDEB80A8A798FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 892EEEDDE6CEFF10CA696C8767867F5F /* OpencvMacOS.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		442FFCFF389F92FC1A750F71DABE42CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A7F1161BEEE1F0A10726ADEB6D7A3BD /* OpencvMacOS.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7599BD86FD28576C20F8B9B6B5ACBEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ABDAE0DBC71BD619A902D5B7793A0975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E4CA80D559DC5EA6E09443A547ABAA5 /* Pods-OpencvMacOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpencvMacOS_Example/Pods-OpencvMacOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpencvMacOS_Example/Pods-OpencvMacOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8FE46089FA5203D02F281A3583D1914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39251038F5CDC9E0DA01E7AA9E040696 /* Pods-OpencvMacOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpencvMacOS_Example/Pods-OpencvMacOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpencvMacOS_Example/Pods-OpencvMacOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0AB89DB0533D8E2B9201FA6579824B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D572E1DB79882F17CBB84F760C869F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B41892EF07F3D8C31EF83D6B241E43 /* Pods-OpencvMacOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpencvMacOS_Tests/Pods-OpencvMacOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpencvMacOS_Tests/Pods-OpencvMacOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED10AD864746382732AE1040BAEDF7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C20E64FA13BF1CB1FEFFCA41B73765A4 /* Pods-OpencvMacOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpencvMacOS_Tests/Pods-OpencvMacOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpencvMacOS_Tests/Pods-OpencvMacOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26D63E2687B52635F4ED29087ACE8073 /* Build configuration list for PBXNativeTarget "Pods-OpencvMacOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D572E1DB79882F17CBB84F760C869F12 /* Debug */,
+				ED10AD864746382732AE1040BAEDF7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7599BD86FD28576C20F8B9B6B5ACBEC9 /* Debug */,
+				C0AB89DB0533D8E2B9201FA6579824B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		826FBCADF777D48D36009351C2B24556 /* Build configuration list for PBXAggregateTarget "OpencvMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3783882BF7538F90FBEDEB80A8A798FC /* Debug */,
+				442FFCFF389F92FC1A750F71DABE42CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CF397E2D14107899864DEF2788B6184 /* Build configuration list for PBXNativeTarget "Pods-OpencvMacOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8FE46089FA5203D02F281A3583D1914 /* Debug */,
+				ABDAE0DBC71BD619A902D5B7793A0975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

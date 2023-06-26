@@ -1,0 +1,29 @@
+{
+  "name": "OpencvMacOS",
+  "version": "1.0.0",
+  "summary": "A short description of OpencvMacOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/csf62615@sina.com/OpencvMacOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "csf62615@sina.com": "csf62615@sina.com"
+  },
+  "source": {
+    "git": "https://github.com/chensifang/OpencvMacOS.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "osx": "10.13"
+  },
+  "source_files": "OpencvMacOS/lib/opencv2.framework/Versions/A/Headers**/*",
+  "vendored_frameworks": "OpencvMacOS/lib/opencv2.framework",
+  "frameworks": [
+    "OpenCL",
+    "Accelerate",
+    "AVFoundation",
+    "CoreMedia"
+  ]
+}

@@ -1,0 +1,6 @@
+framework module OpencvMacOS {
+  umbrella header "OpencvMacOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

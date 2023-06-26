@@ -1,0 +1,6 @@
+framework module Pods_OpencvMacOS_Example {
+  umbrella header "Pods-OpencvMacOS_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

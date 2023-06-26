@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OpencvMacOS_Example' do
+  pod 'OpencvMacOS', :path => '../'
+
+  target 'OpencvMacOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
